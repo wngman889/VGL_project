@@ -2,6 +2,8 @@
 {
     public interface IGameService
     {
-        public Task AddGame(string title, string gameDesc, string genre);
+        public Task<bool> AddGame(string title, string gameDesc, string genre);
+        public Task<Game?> GetGame(int id);
+        public Task<IEnumerable<Game>?> GetGames();
     }
 }

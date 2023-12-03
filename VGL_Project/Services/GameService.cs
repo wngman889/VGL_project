@@ -1,10 +1,10 @@
-﻿namespace VGL_Project.Services
-{
-    using Microsoft.EntityFrameworkCore;
-    using VGL_Project.Data;
-    using VGL_Project.Models;
-    using VGL_Project.Models.Interfaces;
+﻿using Microsoft.EntityFrameworkCore;
+using VGL_Project.Data;
+using VGL_Project.Models;
+using VGL_Project.Models.Interfaces;
 
+namespace VGL_Project.Services
+{
     public class GameService : IGameService
     {
         private readonly VGLDbContext _dbContext;
@@ -29,7 +29,7 @@
         /// It then adds the new game to the DbContext and saves changes to the database asynchronously.
         /// If an exception occurs during the process, it is logged using the ILogger.
         /// </remarks>
-        public async Task AddGame(string title, string gameDesc, string genre)
+        public async Task<bool> AddGame(string title, string gameDesc, string genre)
         {
             try
             {
@@ -46,10 +46,68 @@
 
                 // Save changes to the database
                 await _dbContext.SaveChangesAsync();
+
+                return true;
             }
             catch (Exception ex)
             {
                 _logger.LogError(ex.Message);
+                return false;
+            }
+        }
+        
+        /// <summary>
+        /// Retrieves a game from the database based on the specified ID.
+        /// </summary>
+        /// <param name="id">The ID of the game to retrieve.</param>
+        /// <returns>
+        /// A Task representing the asynchronous operation. 
+        /// The method returns a nullable Game object. 
+        /// If the game with the specified ID is found, the object is returned; otherwise, it returns null.
+        /// </returns>
+        /// <remarks>
+        /// This method searches for a game in the database using the provided ID asynchronously.
+        /// If the game is found, it is returned; otherwise, null is returned.
+        /// If an exception occurs during the process, it is logged using the ILogger.
+        /// </remarks>
+        public async Task<Game?> GetGame(int id)
+        {
+            try
+            {
+                var game = await _dbContext.Games.FindAsync(id);
+                return game;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Retrieves all games from the database.
+        /// </summary>
+        /// <returns>
+        /// A Task representing the asynchronous operation. 
+        /// The method returns a nullable IEnumerable of Game objects. 
+        /// If games are found in the database, the collection is returned; otherwise, it returns null.
+        /// </returns>
+        /// <remarks>
+        /// This method retrieves all games from the database asynchronously.
+        /// If games are found, the collection is returned; otherwise, null is returned.
+        /// If an exception occurs during the process, it is logged using the ILogger.
+        /// </remarks>
+        public async Task<IEnumerable<Game>?> GetGames()
+        {
+            try
+            {
+                var games = await _dbContext.Games.ToListAsync();
+                return games;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex.Message);
+                return null;
             }
         }
     }

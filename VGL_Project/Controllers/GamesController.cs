@@ -21,5 +21,21 @@ namespace VGL_Project.Controllers
 
             return Ok("Game Created");
         }
+
+        [HttpGet("get-game-by-id")]
+        public async Task<IActionResult> GetGame(int id)
+        {
+            var result = await _gameService.GetGame(id);
+
+            if(result == null) return NotFound();
+
+            return Ok(result);
+        }
+
+        [HttpGet("get-all-games")]
+        public async Task<IActionResult> GetGames()
+        {
+            return Ok(await _gameService.GetGames());
+        }
     }
 }
