@@ -1,0 +1,53 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using VGL_Project.Models.Interfaces;
+
+namespace VGL_Project.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class UserController : ControllerBase
+    {
+        private readonly IUserService _userService;
+
+        public UserController(IUserService userService)
+        {
+            this._userService = userService;
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AddUser(string username, string password, string email, string profileDesc)
+        {
+            var result = await _userService.AddUser(username, password, email, profileDesc);
+
+            if(!result) return BadRequest();
+
+            return Ok("User Created");
+        }
+
+        [HttpGet("get-user-by-id")]
+        public async Task<IActionResult> GetUser(int id)
+        {
+            var result = await _userService.GetUser(id);
+
+            if (result == null) return NotFound();
+
+            return Ok(result);
+        }
+
+        [HttpGet("get-all-users")]
+        public async Task<IActionResult> GetUsers()
+        {
+            return Ok(await _userService.GetAllUsers());
+        }
+
+        [HttpPost("add-game-for-user")]
+        public async Task<IActionResult> AddGameForUser(int userId, int gameId)
+        {
+            var result = await _userService.AddGameForUser(userId,gameId);
+
+            if (!result) return BadRequest();
+
+            return Ok("Game Added");
+        }
+    }
+}

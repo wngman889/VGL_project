@@ -15,6 +15,6 @@ namespace VGL_Project.Models
         public int GameId { get; set; }
         public required Game Game { get; set; }
 
-        public GameStatus Status { get; set; }
+        public GameStatus Status { get; set; } = GameStatus.Owned;
     }
 }
