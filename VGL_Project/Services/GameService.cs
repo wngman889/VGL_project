@@ -55,7 +55,7 @@ namespace VGL_Project.Services
                 return false;
             }
         }
-        
+
         /// <summary>
         /// Retrieves a game from the database based on the specified ID.
         /// </summary>
@@ -110,6 +110,61 @@ namespace VGL_Project.Services
                 return null;
             }
         }
+
+        public async Task<bool> UpdateGame(int id, string newTitle, string newGameDesc, string newGenre)
+        {
+            try
+            {
+                // Find the game in the database
+                var existingGame = await _dbContext.Games.FindAsync(id);
+
+                // If the game is not found, return false
+                if (existingGame == null)
+                    return false;
+
+                // Update the properties of the existing game
+                existingGame.Title = newTitle;
+                existingGame.GameDesc = newGameDesc;
+                existingGame.Genre = newGenre;
+
+                // Save changes to the database
+                await _dbContext.SaveChangesAsync();
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex.Message);
+                return false;
+            }
+        }
+
+        public async Task<bool> DeleteGame(int id)
+        {
+            try
+            {
+                // Find the game in the database
+                var gameToDelete = await _dbContext.Games.FindAsync(id);
+
+                // If the game is not found, return false
+                if (gameToDelete == null)
+                    return false;
+
+                // Remove the game from the DbContext
+                _dbContext.Games.Remove(gameToDelete);
+
+                // Save changes to the database
+                await _dbContext.SaveChangesAsync();
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex.Message);
+                return false;
+            }
+        }
+
     }
 
 }
