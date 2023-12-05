@@ -19,6 +19,6 @@ namespace VGL_Project.Models
         [MaxLength(255)]
         public required string Description { get; set; }
 
-        public List<EventParticipant> Participants { get; set; }
+        public List<EventParticipant>? Participants { get; set; }
     }
 }
