@@ -57,7 +57,7 @@ namespace VGL_Project.Controllers
             return Ok(await _eventService.GetEvents());
         }
 
-        [HttpPut("update-event-description")]
+        [HttpPut("update-event-description/{id}")]
         public async Task<IActionResult> UpdateEvent(int id, string description)
         {
             try
@@ -80,7 +80,7 @@ namespace VGL_Project.Controllers
                 return StatusCode(500, "Internal Server Error");
             }
         }
-        [HttpPut("update-event-date")]
+        [HttpPut("update-event-date/{id}")]
         public async Task<IActionResult> UpdateEvent(int id, DateTime date)
         {
             try
