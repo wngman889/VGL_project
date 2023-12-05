@@ -11,8 +11,8 @@ using VGL_Project.Data;
 namespace VGL_Project.Migrations
 {
     [DbContext(typeof(VGLDbContext))]
-    [Migration("20231203172832_SetupCreate")]
-    partial class SetupCreate
+    [Migration("20231204194928_AddTables")]
+    partial class AddTables
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

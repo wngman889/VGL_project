@@ -162,5 +162,52 @@ namespace VGL_Project.Services
                 return false;
             }
         }
+
+        public async Task<bool> UpdateUser(int id, string newUsername, string newPassword, string newEmail, string newProfileDesc)
+        {
+            try
+            {
+                var existingUser = await _dbContext.Users.FindAsync(id);
+
+                if (existingUser == null)
+                    return false;
+
+                existingUser.Username = newUsername;
+                existingUser.Password = newPassword;
+                existingUser.Email = newEmail;
+                existingUser.ProfileDesc = newProfileDesc;
+
+                await _dbContext.SaveChangesAsync();
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex.Message);
+                return false;
+            }
+        }
+
+        public async Task<bool> DeleteUser(int id)
+        {
+            try
+            {
+                var userToDelete = await _dbContext.Users.FindAsync(id);
+
+                if (userToDelete == null)
+                    return false;
+
+                _dbContext.Users.Remove(userToDelete);
+
+                await _dbContext.SaveChangesAsync();
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex.Message);
+                return false;
+            }
+        }
     }
 }

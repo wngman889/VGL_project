@@ -55,7 +55,7 @@ namespace VGL_Project.Services
                 return false;
             }
         }
-        
+
         /// <summary>
         /// Retrieves a game from the database based on the specified ID.
         /// </summary>
@@ -110,6 +110,53 @@ namespace VGL_Project.Services
                 return null;
             }
         }
+
+        public async Task<bool> UpdateGame(int id, string newTitle, string newGameDesc, string newGenre)
+        {
+            try
+            {
+                var existingGame = await _dbContext.Games.FindAsync(id);
+
+                if (existingGame == null)
+                    return false;
+
+                existingGame.Title = newTitle;
+                existingGame.GameDesc = newGameDesc;
+                existingGame.Genre = newGenre;
+
+                await _dbContext.SaveChangesAsync();
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex.Message);
+                return false;
+            }
+        }
+
+        public async Task<bool> DeleteGame(int id)
+        {
+            try
+            {
+                var gameToDelete = await _dbContext.Games.FindAsync(id);
+
+                if (gameToDelete == null)
+                    return false;
+
+                _dbContext.Games.Remove(gameToDelete);
+
+                await _dbContext.SaveChangesAsync();
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex.Message);
+                return false;
+            }
+        }
+
     }
 
 }

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using VGL_Project.Models.Interfaces;
+using VGL_Project.Services;
 
 namespace VGL_Project.Controllers
 {
@@ -48,6 +49,26 @@ namespace VGL_Project.Controllers
             if (!result) return BadRequest();
 
             return Ok("Game Added");
+        }
+        [HttpPut("update-user/{id}")]
+        public async Task<IActionResult> UpdateUser(int id, string newUsername, string newPassword, string newEmail, string newProfileDesc)
+        {
+            var isUpdated = await _userService.UpdateUser(id, newUsername, newPassword, newEmail, newProfileDesc);
+
+            if (!isUpdated) return NotFound();
+
+            return Ok("User Information Updated");
+        }
+
+        [HttpDelete("delete-user/{id}")]
+        public async Task<IActionResult> DeleteUser(int id)
+        {
+            var result = await _userService.DeleteUser(id);
+
+            if (result)
+                return Ok(result);
+            else
+                return NotFound();
         }
     }
 }
