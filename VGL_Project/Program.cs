@@ -24,6 +24,8 @@ namespace VGL_Project
 
             builder.Services.AddScoped<IGameService, GameService>();
             builder.Services.AddScoped<IUserService, UserService>();
+            builder.Services.AddScoped<IReviewService, ReviewService>();
+            builder.Services.AddScoped<IEventService, EventService>();
 
             var app = builder.Build();
 
