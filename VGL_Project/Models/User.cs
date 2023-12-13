@@ -21,9 +21,11 @@ namespace VGL_Project.Models
         [MaxLength(255)]
         public required string Email { get; set; }
 
+        [Column("profile_desc")]
         [MaxLength(255)]
         public required string ProfileDesc { get; set; }
 
+        [Column("created_at")]
         public DateTime CreatedAt { get; set; } = DateTime.Now;
 
         public List<UserGame> OwnedGames { get; set; }
