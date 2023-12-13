@@ -13,6 +13,7 @@ namespace VGL_Project.Models
         [MaxLength(255)]
         public required string Title { get; set; }
 
+        [Column("game_desc")]
         [MaxLength(255)]
         public required string GameDesc { get; set; }
 
