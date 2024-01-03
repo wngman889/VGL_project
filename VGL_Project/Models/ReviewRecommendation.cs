@@ -8,21 +8,21 @@ namespace VGL_Project.Models
         [Key]
         public int Id { get; set; }
 
-        [Column("author_id")]
+        [Column("AuthorId")]
         public int AuthorId { get; set; }
         public required User Author { get; set; }
 
-        [Column("game_id")]
+        [Column("GameId")]
         public int GameId { get; set; }
         public required Game Game { get; set; }
 
-        [Column("review_title")]
+        [Column("ReviewTitle")]
         [MaxLength(255)]
         public required string ReviewTitle { get; set; }
 
         public int Rating { get; set; }
 
-        [Column("review_description")]
+        [Column("ReviewDescription")]
         [MaxLength(255)]
         public required string ReviewDescription { get; set; }
     }
