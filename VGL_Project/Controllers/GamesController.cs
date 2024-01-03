@@ -16,7 +16,7 @@ namespace VGL_Project.Controllers
             _gameService = gameService;
         }
 
-        [HttpPost]
+        [HttpPost("add-game")]
         public async Task<IActionResult> AddGame(string title, string gameDesc, string genre)
         {
             await _gameService.AddGame(title, gameDesc, genre);
