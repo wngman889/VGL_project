@@ -28,6 +28,11 @@ namespace VGL_Project.Models
         [Column("created_at")]
         public DateTime CreatedAt { get; set; } = DateTime.Now;
 
+        [Column("steam_id")]
+        [MaxLength(255)]
+        public string? SteamId { get; set; }
+
+
         public List<UserGame> OwnedGames { get; set; }
 
         public List<ReviewRecommendation> AuthoredReviews { get; set; }
