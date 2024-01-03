@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using SteamWebAPI2.Interfaces;
+using SteamWebAPI2.Utilities;
 using VGL_Project.Models.Interfaces;
-using VGL_Project.Services;
+using VGL_Project.Models.Constants;
 
 namespace VGL_Project.Controllers
 {
@@ -33,6 +35,19 @@ namespace VGL_Project.Controllers
             if (result == null) return NotFound();
 
             return Ok(result);
+        }
+        [HttpGet("get-user-by-steamID")]
+        public async Task<IActionResult> GetUserByID(ulong steamID)
+        {
+            var webInterfaceFactory = new SteamWebInterfaceFactory(Constants.API_KEY);
+            var steamInterface = webInterfaceFactory.CreateSteamWebInterface<SteamUser>(new HttpClient());
+            var playerSummaryResponse = await steamInterface.GetPlayerSummaryAsync(steamID);
+
+            if(playerSummaryResponse == null) return NotFound();
+
+            var playerSummaryData = playerSummaryResponse.Data;
+
+            return Ok(playerSummaryData);
         }
 
         [HttpGet("get-all-users")]

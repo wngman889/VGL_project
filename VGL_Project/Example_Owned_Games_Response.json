@@ -1,0 +1,3290 @@
+{
+  "gameCount": 365,
+  "ownedGames": [
+    {
+      "appId": 240,
+      "name": "Counter-Strike: Source",
+      "playtimeForever": "15:01:00",
+      "imgIconUrl": "9052fa60c496a1c03383b27687ec50f4bf0f0e10",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 4000,
+      "name": "Garry's Mod",
+      "playtimeForever": "22:52:00",
+      "imgIconUrl": "4a6f25cfa2426445d0d9d6e233408de4d371ce8b",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 2300,
+      "name": "DOOM II",
+      "playtimeForever": "00:14:00",
+      "imgIconUrl": "ca71be262e191f3fdb2148f5ae56ff3e2ca340c2",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 400,
+      "name": "Portal",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "cfa928ab4119dd137e50d728e8fe703e4e970aff",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 1250,
+      "name": "Killing Floor",
+      "playtimeForever": "02:07:00",
+      "imgIconUrl": "d8a2d777cb4c59cf06aa244166db232336520547",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 35420,
+      "name": "Killing Floor Mod: Defence Alliance 2",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "ae7580a60cf77b754c723c72d5e31d530fbe7804",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 6060,
+      "name": "Star Wars: Battlefront 2 (Classic, 2005)",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "f6302406e215af8cff3533a747d30387f68bef2a",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 550,
+      "name": "Left 4 Dead 2",
+      "playtimeForever": "03:34:00",
+      "imgIconUrl": "7d5a243f9500d2f8467312822f8af2a2928777ed",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 31700,
+      "name": "Iron Grip: Warlord",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "9aa985a825f0c7f528c312126f182eada9e01b83",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 55100,
+      "name": "Homefront",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "52d4f669d6aa00c92406457d430ed5aa6a035c54",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 70000,
+      "name": "Dino D-Day",
+      "playtimeForever": "02:16:00",
+      "imgIconUrl": "958cda55e4c95d79c651b567f3083204d9842911",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 620,
+      "name": "Portal 2",
+      "playtimeForever": "15:33:00",
+      "imgIconUrl": "2e478fc6874d06ae5baf0d147f6f21203291aa02",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 105600,
+      "name": "Terraria",
+      "playtimeForever": "5.15:59:00",
+      "imgIconUrl": "858961e95fbf869f136e1770d586e0caefd4cfac",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 7760,
+      "name": "X-COM: UFO Defense",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "7d0f9be3db221de0795ade38ae2d27530314f465",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 200110,
+      "name": "Nosgoth",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "5059f6d2b9c87f10a631fcdcbed1020f7aae0ef9",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 201570,
+      "name": "Really Big Sky",
+      "playtimeForever": "02:19:00",
+      "imgIconUrl": "ecec7061552a1c9f9e2317b05c0ae7cf96c884e1",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 67370,
+      "name": "The Darkness II",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "6ca6291fe216a8cc5c56f01b1e7f83e396a8fa81",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 204340,
+      "name": "Serious Sam 2",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "2a2df389720949c276419859357504237f0720b4",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 201700,
+      "name": "DiRT Showdown",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "cc23d301fb2dcd0fcb1c442ff26ccef79fb891da",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 207610,
+      "name": "The Walking Dead",
+      "playtimeForever": "02:30:00",
+      "imgIconUrl": "87a13ae0a2a76488792924aa8bb0dd8a7760f931",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 12750,
+      "name": "GRID",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "c9367af908a9527040b41f6323aee4507bcba722",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 113200,
+      "name": "The Binding of Isaac",
+      "playtimeForever": "13:45:00",
+      "imgIconUrl": "383cf045ca20625db18f68ef5e95169012118b9e",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 730,
+      "name": "Counter-Strike 2",
+      "playtimeForever": "52.21:35:00",
+      "imgIconUrl": "8dbc71957312bbd3baea65848b545be9eae2a355",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 214150,
+      "name": "Galactic Civilizations I: Ultimate Edition",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "66df956909f51af564f8d6086c201004ab81aa51",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 49520,
+      "name": "Borderlands 2",
+      "playtimeForever": "4.08:29:00",
+      "imgIconUrl": "a3f4945226e69b6196074df4c776e342d3e5a3be",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 11450,
+      "name": "Overlord",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "8fc55092acac2cb5f72dbf8f644fcd430c461dd6",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 204300,
+      "name": "Awesomenauts",
+      "playtimeForever": "03:52:00",
+      "imgIconUrl": "4996933171d0804bd0ceb7b9a0e224b3139d18ba",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 219640,
+      "name": "Chivalry: Medieval Warfare",
+      "playtimeForever": "05:39:00",
+      "imgIconUrl": "d4628be29b7e97d93a3404870dfe79642b90b907",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 219950,
+      "name": "NiGHTS into Dreams...",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "630fb86750aaa5d9ca713df086fa93d9804e9f02",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 201790,
+      "name": "Orcs Must Die! 2",
+      "playtimeForever": "02:00:00",
+      "imgIconUrl": "fabd8658e8e76f7c99c56f26b69d29882756f9b4",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 34870,
+      "name": "Sniper Ghost Warrior 2",
+      "playtimeForever": "07:26:00",
+      "imgIconUrl": "da27c4234c040808171754145b8bb82e837b89ff",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 11020,
+      "name": "TrackMania Nations Forever",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "a422db7cb704324da48741b9e0a0cc193b566eb0",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 99900,
+      "name": "Spiral Knights",
+      "playtimeForever": "00:17:00",
+      "imgIconUrl": "d4b1a783f64871474bacfec6b33307e56fa665f7",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 113400,
+      "name": "APB Reloaded",
+      "playtimeForever": "01:19:00",
+      "imgIconUrl": "3b3c7a71ffa158894640bef2795a82c6f52b136b",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 207230,
+      "name": "Archeblade",
+      "playtimeForever": "00:16:00",
+      "imgIconUrl": "d335ba0a5d56fc7c3921dc584585716ab6372aa9",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 208090,
+      "name": "Loadout",
+      "playtimeForever": "15:06:00",
+      "imgIconUrl": "d4dc7a4f71d4ba7c44cd05b5c235e0a387ca212b",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 212160,
+      "name": "Vindictus",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "05b1cbe0a708cc17a1c94726fa247a4f0740b79a",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 218230,
+      "name": "PlanetSide 2",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "f09d788b57eccd48ad9a6d1ec0dbf0707db39612",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 1083500,
+      "name": "PlanetSide 2 - Test",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "4a048ec31eba8fb4ed19a1fd8a906041119d3523",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 230410,
+      "name": "Warframe",
+      "playtimeForever": "4.05:05:00",
+      "imgIconUrl": "22064646470f4c53388ba87774c7ac10f0a91ffa",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 238960,
+      "name": "Path of Exile",
+      "playtimeForever": "00:29:00",
+      "imgIconUrl": "1110764aac57ac28d7ffd8c43071c75d5482a9c9",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 209870,
+      "name": "Blacklight: Retribution",
+      "playtimeForever": "02:52:00",
+      "imgIconUrl": "de0e0786f3473b277fbbf7db4f3fdc5ea07b942c",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 248570,
+      "name": "Toribash",
+      "playtimeForever": "00:41:00",
+      "imgIconUrl": "7642e8aaf8d97a5fca68d749ed5cdd548cbb6d35",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 271290,
+      "name": "HAWKEN",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "c2ff4b2c2652a897935631b040c5ba135fe655e3",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 253710,
+      "name": "theHunter Classic",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "4a91dc770675e559038a4f46e0daa4f8fa42ee30",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 217920,
+      "name": "Alien Rage - Unlimited",
+      "playtimeForever": "02:12:00",
+      "imgIconUrl": "aa52645539c5ff66296303f65310bb89eaf15f44",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 232770,
+      "name": "POSTAL",
+      "playtimeForever": "02:23:00",
+      "imgIconUrl": "cc74f7112ea3820e6f08eb580a03d7b37325e51c",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 3910,
+      "name": "Sid Meier's Civilization III: Complete",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "9cc953317dabd7b8e39690472872b37104b5e625",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 234650,
+      "name": "Shadowrun Returns",
+      "playtimeForever": "00:56:00",
+      "imgIconUrl": "13c8e62b9b079fba385a2d959ed4e8ce2c378c8c",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 65930,
+      "name": "The Bureau: XCOM Declassified",
+      "playtimeForever": "02:29:00",
+      "imgIconUrl": "854f133d072a65e5577c2a21bf25ba863e4a6a23",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 35450,
+      "name": "Rising Storm/Red Orchestra 2 Multiplayer",
+      "playtimeForever": "02:29:00",
+      "imgIconUrl": "d70423dddb3bb2a144e38ab9cc811e6fda1eb622",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 210770,
+      "name": "Sanctum 2",
+      "playtimeForever": "01:35:00",
+      "imgIconUrl": "4cdfa1d19be460374a111b718ce3a204f21ea1dc",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 235720,
+      "name": "Cubetractor",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "ff4d47fdd283c9a6309704354741d199ae1a1617",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 242760,
+      "name": "The Forest",
+      "playtimeForever": "17:21:00",
+      "imgIconUrl": "3a6847f6ac5879e48531db52261771d5e22904ac",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 233250,
+      "name": "Planetary Annihilation",
+      "playtimeForever": "04:02:00",
+      "imgIconUrl": "cc7e967f96e5fb35cf45c742f2c73b2d4f348bd0",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 239450,
+      "name": "Gun Monkeys",
+      "playtimeForever": "02:25:00",
+      "imgIconUrl": "175feabf1003b3b72eadeb04c71f1a8bf9749e11",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 207140,
+      "name": "SpeedRunners",
+      "playtimeForever": "18:15:00",
+      "imgIconUrl": "65cfa21149c415430fe36d83c23e079e6db476cc",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 368730,
+      "name": "No Time To Explain Remastered",
+      "playtimeForever": "02:17:00",
+      "imgIconUrl": "4cea102f506d192056197b347544bfe77489e847",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 218620,
+      "name": "PAYDAY 2",
+      "playtimeForever": "2.03:37:00",
+      "imgIconUrl": "a6abc0d0c1e79c0b5b0f5c8ab81ce9076a542414",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 214550,
+      "name": "Eets Munchies",
+      "playtimeForever": "02:56:00",
+      "imgIconUrl": "17b2e8425efc9d35b2ed559f43dd820272d58d66",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 252490,
+      "name": "Rust",
+      "playtimeForever": "05:27:00",
+      "imgIconUrl": "820be4782639f9c4b64fa3ca7e6c26a95ae4fd1c",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 700580,
+      "name": "Rust - Staging Branch",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "820be4782639f9c4b64fa3ca7e6c26a95ae4fd1c",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 253650,
+      "name": "Sparkle 2 Evo",
+      "playtimeForever": "02:24:00",
+      "imgIconUrl": "a918821da1c0651da145b7bb68fd87e8edbc44e7",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 253980,
+      "name": "Enclave",
+      "playtimeForever": "02:13:00",
+      "imgIconUrl": "eb807cb60bbb54f7103659b17ca74c88477fa8f1",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 254000,
+      "name": "East India Company Gold",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "517c5f57b39abe6428aec9487d52ca987595e87e",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 254060,
+      "name": "KnightShift",
+      "playtimeForever": "02:30:00",
+      "imgIconUrl": "b1fbbfcbb5f85058a10f96a9262946ffae0c5982",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 233130,
+      "name": "Shadow Warrior",
+      "playtimeForever": "02:31:00",
+      "imgIconUrl": "5d7c205ce18f17a99c95ff81499c2f496e0570f2",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 255520,
+      "name": "Viscera Cleanup Detail: Shadow Warrior",
+      "playtimeForever": "00:03:00",
+      "imgIconUrl": "56c3840d52a0da4f397d9991d368c75ed53d99fa",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 259280,
+      "name": "Earth 2150: The Moon Project",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "fdddf09c13b7b5aa264f3203d7f6cab5bc919245",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 262280,
+      "name": "Dungeons 2",
+      "playtimeForever": "02:29:00",
+      "imgIconUrl": "429544f4c7680d781477059d59e5314974574db3",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 263060,
+      "name": "Blockstorm",
+      "playtimeForever": "02:14:00",
+      "imgIconUrl": "883b2cee32047782e366da6c1cad39e87a4b630f",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 263700,
+      "name": "Muffin Knight",
+      "playtimeForever": "00:31:00",
+      "imgIconUrl": "ff17b52d8732421d5fe6145d9b3b5d3e9f6c6eb2",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 264200,
+      "name": "One Finger Death Punch",
+      "playtimeForever": "02:05:00",
+      "imgIconUrl": "2db66d5c9c2b4fe60afea1d3d331f6fa7d6d5591",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 264730,
+      "name": "Deadly 30",
+      "playtimeForever": "02:07:00",
+      "imgIconUrl": "0f5279b00947edd11435a4ac71a891dd0cfe4fe9",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 269210,
+      "name": "Hero Siege",
+      "playtimeForever": "05:17:00",
+      "imgIconUrl": "c787f8aa68ebb1426c5a9633b7609d7e849c1bc2",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 271860,
+      "name": "Super Killer Hornet: Resurrection",
+      "playtimeForever": "02:14:00",
+      "imgIconUrl": "f5638759d75c07bc68d0c2cc0608c2ac9a6c1716",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 57300,
+      "name": "Amnesia: The Dark Descent",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "2c08de657a8b273eeb55bb5bf674605ca023e381",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 239200,
+      "name": "Amnesia: A Machine for Pigs",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "3bf781ae80c6eeb8827819fb2ed92aa2353d3007",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 273110,
+      "name": "Counter-Strike Nexon: Studio",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "5c1fafdd68af71dcf0e40917d7c288a3c541e2b7",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 274620,
+      "name": "Skara - The Blade Remains",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "d29b1570d73e5bf20a294f27c0a2d825479544cb",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 275490,
+      "name": "Canyon Capers",
+      "playtimeForever": "02:15:00",
+      "imgIconUrl": "3b0543b8622853cc91b52e52c0f5fa3d871e65ec",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 278360,
+      "name": "A Story About My Uncle",
+      "playtimeForever": "00:45:00",
+      "imgIconUrl": "feb33a53334222c82aaf0545e00913bd92bcd3d9",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 10270,
+      "name": "Disciples III: Reincarnation",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "c4f35a114a0c066e8c01f8a3fa13d2cc2919ccf1",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 282100,
+      "name": "Fearless Fantasy",
+      "playtimeForever": "02:13:00",
+      "imgIconUrl": "a21920f5ba87260c56760d752764c3d0572c7575",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 284930,
+      "name": "Speed Kills",
+      "playtimeForever": "02:10:00",
+      "imgIconUrl": "666cf44bc7f832351b7d417a6c19a5821ae5b7f2",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 285090,
+      "name": "Robowars",
+      "playtimeForever": "02:05:00",
+      "imgIconUrl": "41e9acf5d4181a8c65ade1025fdf9320ea3c0a66",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 287100,
+      "name": "Chaos Domain",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "24687d0a8f7a03b1816e8a5f07eafbf8b2a9ec61",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 292620,
+      "name": "Pressured",
+      "playtimeForever": "02:08:00",
+      "imgIconUrl": "53d99d13ef00dcd83fd9666379076aa290923f63",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 292910,
+      "name": "Deponia: The Complete Journey",
+      "playtimeForever": "01:07:00",
+      "imgIconUrl": "98e31755e9695af7d427411d55100ce834f1f102",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 293540,
+      "name": "Guns and Robots",
+      "playtimeForever": "02:27:00",
+      "imgIconUrl": "52b85a957b75536edcea84dbf7b6d9769b5cc913",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 238460,
+      "name": "BattleBlock Theater",
+      "playtimeForever": "12:20:00",
+      "imgIconUrl": "2f258aaff583d797812cdcf24830d5992f48733b",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 301690,
+      "name": "Cobi Treasure Deluxe",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "dfed387651076ca7b02933d894b674f4726df9b5",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 301700,
+      "name": "Numba Deluxe",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "05ce51f47cc14d5b05ee64f78cccdd15169b9259",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 302460,
+      "name": "I Am Vegend",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "5065e90ae4f447d41ee82bd85eeee545b7117818",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 304050,
+      "name": "Trove",
+      "playtimeForever": "05:10:00",
+      "imgIconUrl": "76b62601bb6f0551c415697fe92a6653340f4a5e",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 304930,
+      "name": "Unturned",
+      "playtimeForever": "2.02:41:00",
+      "imgIconUrl": "e18009fb628b35953826efe47dc3be556b689f4c",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 8600,
+      "name": "RACE 07",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "4934ef713f31d50f516e713fdeb38c2a87f7bfa4",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 8660,
+      "name": "GTR Evolution",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "a232ecd42fe5b9dae1d52664fea75b804d23df4a",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 211500,
+      "name": "RaceRoom Racing Experience",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "1a0cf3ab26336c2cfec795f02b02802ddc200f48",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 310380,
+      "name": "Fractured Space",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "ad6e742508e69c690d94136b3226de22edc42faa",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 291480,
+      "name": "Warface: Clutch",
+      "playtimeForever": "17:29:00",
+      "imgIconUrl": "66ef308279871d99ca776d4602bf02a354570368",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 227940,
+      "name": "Heroes & Generals",
+      "playtimeForever": "00:03:00",
+      "imgIconUrl": "64f09c15e558464a40ced00a9ef35ed13542e144",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 265590,
+      "name": "The Red Solstice",
+      "playtimeForever": "01:40:00",
+      "imgIconUrl": "cc33fb26c140d04a20fb0fd5f549454458122322",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 4760,
+      "name": "Rome: Total War",
+      "playtimeForever": "02:03:00",
+      "imgIconUrl": "5dc68565149dc971af6428157bcb600d80690080",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 315060,
+      "name": "Bloop Reloaded",
+      "playtimeForever": "02:16:00",
+      "imgIconUrl": "2e08678f1241008573b9ec232292b0555299e946",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 315330,
+      "name": "All Guns On Deck",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "0060e400a5ce694d24aef49aa28c198ee9ee5ef2",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 222900,
+      "name": "Dead Island: Epidemic",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "eeca961216745840443d87373f907d1e6e4ca764",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 320040,
+      "name": "Moon Hunters",
+      "playtimeForever": "07:24:00",
+      "imgIconUrl": "fc61b16cfd617414a286e338968dadf06a74c512",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 321040,
+      "name": "DiRT 3 Complete Edition",
+      "playtimeForever": "02:13:00",
+      "imgIconUrl": "fdfb3aa153b57d6ae6cd8099cb4456b3d5b182b6",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 321150,
+      "name": "Melissa K. and the Heart of Gold Collector's Edition",
+      "playtimeForever": "02:29:00",
+      "imgIconUrl": "4b0df8608d135c5fd938b6e6ac4c7ebe901cb4a2",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 321260,
+      "name": "Wickland",
+      "playtimeForever": "02:19:00",
+      "imgIconUrl": "eb7c20cdd79c627b993c4a7e1869c7123edfe3ec",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 322500,
+      "name": "SUPERHOT",
+      "playtimeForever": "06:45:00",
+      "imgIconUrl": "81839f0d50cb3e54c9aa7c69c04916f1e53d8c35",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 690040,
+      "name": "SUPERHOT: MIND CONTROL DELETE",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "b559e2f04cd42ef1d8fad23e735516bd7d155d5c",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 322750,
+      "name": "Drifting Lands",
+      "playtimeForever": "02:33:00",
+      "imgIconUrl": "27e0e5a629c25083b7f56ea28c1d48c4d0fdca8d",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 238590,
+      "name": "Loadout Campaign Beta",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "4f1598bd87790870d336774f15043da1870d4c43",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 238320,
+      "name": "Outlast",
+      "playtimeForever": "02:30:00",
+      "imgIconUrl": "46bd3df92d4693d3b2af113bf8f31c2cbdadb20a",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 24240,
+      "name": "PAYDAY: The Heist",
+      "playtimeForever": "06:23:00",
+      "imgIconUrl": "a07ceea8808f1a2104ed1c864756f263ec67df49",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 331360,
+      "name": "Heavy Metal Machines",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "59a4ad83116beaac2b473e17784cb3c5e4e9f7a2",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 333930,
+      "name": "Dirty Bomb",
+      "playtimeForever": "02:54:00",
+      "imgIconUrl": "48a3c464019fc161c2ea17334ca8d545a846a98e",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 334070,
+      "name": "Hektor",
+      "playtimeForever": "02:14:00",
+      "imgIconUrl": "2699d8b4e1a8a4842824b69b34e36b920b1e30da",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 334230,
+      "name": "Town of Salem",
+      "playtimeForever": "04:43:00",
+      "imgIconUrl": "fc48df91946a366ed3d9a065aef96b146f33ee76",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 335330,
+      "name": "Brick-Force",
+      "playtimeForever": "00:17:00",
+      "imgIconUrl": "2c9ef625cbb1b7f6b3146058c5625a2fb17334f8",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 336060,
+      "name": "Raptor: Call of The Shadows - 2015 Edition",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "e1e1d8c2453ba10b540145812c60fad78f0c0620",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 322330,
+      "name": "Don't Starve Together",
+      "playtimeForever": "07:41:00",
+      "imgIconUrl": "a80aa6cff8eebc1cbc18c367d9ab063e1553b0ee",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 250900,
+      "name": "The Binding of Isaac: Rebirth",
+      "playtimeForever": "12:11:00",
+      "imgIconUrl": "16d46c8630499bfc54d20745ac90786a302cd643",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 339470,
+      "name": "Retention",
+      "playtimeForever": "02:13:00",
+      "imgIconUrl": "3ebc7c0ea6693d1ade6310d0d92b06c4d7db8158",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 339610,
+      "name": "FreeStyle 2: Street Basketball",
+      "playtimeForever": "1.10:10:00",
+      "imgIconUrl": "368f89b5ecc999f1956a98a9bdb86f4d6acb243d",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 339800,
+      "name": "HuniePop",
+      "playtimeForever": "07:13:00",
+      "imgIconUrl": "a49f1398797b570567b73ec5f74e2e31cc39e273",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 341070,
+      "name": "Stay Dead Evolution",
+      "playtimeForever": "02:09:00",
+      "imgIconUrl": "6bfe066a6f4ddf6fbed6d687e99b2ab70b641992",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 345990,
+      "name": "ABRACA - Imagic Games",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "70cd2cb9daaa328f279499509648fe5a203efd14",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 346900,
+      "name": "AdVenture Capitalist",
+      "playtimeForever": "11:02:00",
+      "imgIconUrl": "b4dd5ca1582ed52335b31960e05766fd22fa7cc4",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 346950,
+      "name": "The Dark Stone from Mebara",
+      "playtimeForever": "02:13:00",
+      "imgIconUrl": "ed8a8a094e070d2d55d835f1bfd33e12338dbe4f",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 347290,
+      "name": "Rise & Shine",
+      "playtimeForever": "03:42:00",
+      "imgIconUrl": "47b2056b7151fc6d342f74411e1d193d92c94617",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 347560,
+      "name": "Terra Incognita Chapter One: The Descendant",
+      "playtimeForever": "02:06:00",
+      "imgIconUrl": "ef4c1e270090bf8c724a6b0ea7b68c7c5d5ac33f",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 348360,
+      "name": "Doodle God",
+      "playtimeForever": "02:19:00",
+      "imgIconUrl": "31c2b5609aa7779e6faafeaf6d0e085386b4ccba",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 356330,
+      "name": "Dragomon Hunter",
+      "playtimeForever": "00:42:00",
+      "imgIconUrl": "499a4b1c48da73f3f52905ab6cf2c2c4785ff5f2",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 359310,
+      "name": "Evoland 2",
+      "playtimeForever": "00:53:00",
+      "imgIconUrl": "d2f9687a00ccfa481db07eb17d0f927fb2d90ce7",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 1020470,
+      "name": "Evoland Legendary Edition",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "6b564bfe80bccfcadbb54881e21c3cdf582b1d1b",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 361620,
+      "name": "True Bliss",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "b18e122d9a2e111c4eb767e0a0a4d642235e851b",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 363490,
+      "name": "Escape Machines",
+      "playtimeForever": "02:13:00",
+      "imgIconUrl": "4d246c919d80261f0dbe19dc68f66e4fde85cb9a",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 375510,
+      "name": "New kind of adventure",
+      "playtimeForever": "02:00:00",
+      "imgIconUrl": "b3b516687cd19266657265edfca86b8b39036851",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 376570,
+      "name": "WildStar",
+      "playtimeForever": "06:12:00",
+      "imgIconUrl": "d6acd260ba9742f669474c0fb81a42d79b960585",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 377310,
+      "name": "The Tower Of Elements",
+      "playtimeForever": "02:06:00",
+      "imgIconUrl": "4ea7d6c242121111594d791334b3e5e2524d5079",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 381210,
+      "name": "Dead by Daylight",
+      "playtimeForever": "00:52:00",
+      "imgIconUrl": "aa152097a700fd6f4707397ce41794ea30874790",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 382120,
+      "name": "Journey To The Center Of The Earth",
+      "playtimeForever": "02:15:00",
+      "imgIconUrl": "a014d6cdf709991a0aee4d36028fffa64a2d5870",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 383080,
+      "name": "Sakura Clicker",
+      "playtimeForever": "00:47:00",
+      "imgIconUrl": "e949d522ccc4f2dba013dc4405609570f49b39d1",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 383330,
+      "name": "Star Chronicles: Delta Quadrant",
+      "playtimeForever": "01:59:00",
+      "imgIconUrl": "018b551d7ee9624d31b6c3bdbe77f05f58f6c2cd",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 383580,
+      "name": "Flesh Eaters",
+      "playtimeForever": "01:59:00",
+      "imgIconUrl": "503ba75b35c3e44aecf0c422c7e40e4de7f3030a",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 386360,
+      "name": "SMITE",
+      "playtimeForever": "05:52:00",
+      "imgIconUrl": "7ed9de7bbfab9accb81e47b84943e7478baf2f3a",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 858460,
+      "name": "SMITE - Public Test",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "20e160ebdeddbb45f1066f62797cee2dff94da95",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 291550,
+      "name": "Brawlhalla",
+      "playtimeForever": "11:31:00",
+      "imgIconUrl": "c43fac31b8bf8821764603a14d09412bc3d45f66",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 388160,
+      "name": "Project Druid - 2D Labyrinth Explorer-",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "fc837909078fd0c0dfa136aedcd366a4f846b919",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 391070,
+      "name": "Stellar 2D",
+      "playtimeForever": "02:10:00",
+      "imgIconUrl": "4c5dbb6d1bbead0c743a593329d6578064d6d5b7",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 391580,
+      "name": "Egyptian Senet",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "cbfe005012326c4cd94df8d47ba39d99d628eac6",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 391720,
+      "name": "Layers of Fear (2016)",
+      "playtimeForever": "02:29:00",
+      "imgIconUrl": "0fc90b925c7bbdcc95df6599a01b80dff18e6bbb",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 393460,
+      "name": "Crazy Pixel Streaker",
+      "playtimeForever": "02:16:00",
+      "imgIconUrl": "627015b6ffaf300e6d2882f38b9e34171674070e",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 395170,
+      "name": "DISTRAINT: Deluxe Edition",
+      "playtimeForever": "02:13:00",
+      "imgIconUrl": "4ada0f3bc25bec4e3cd6d762b76f87c205adf9a7",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 399430,
+      "name": "Tinboy",
+      "playtimeForever": "02:03:00",
+      "imgIconUrl": "812d777e4172d7b48f5ca0b0f3cf0c024d819723",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 400240,
+      "name": "The Deer",
+      "playtimeForever": "02:12:00",
+      "imgIconUrl": "c4356a4f0f258f77b1dca3f5c78fe0e534276e37",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 403560,
+      "name": "Eaten Alive",
+      "playtimeForever": "02:13:00",
+      "imgIconUrl": "d9bd95d0ea552d7a5d108006887626cf38571977",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 403900,
+      "name": "Clergy Splode",
+      "playtimeForever": "02:15:00",
+      "imgIconUrl": "f01f3eaa284da9e48280d9111c517a383dec826b",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 405950,
+      "name": "Lowglow",
+      "playtimeForever": "02:25:00",
+      "imgIconUrl": "bfe448726bf7cdf5fbd59a67c6f25c3e4a3ce2f5",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 299360,
+      "name": "Block N Load",
+      "playtimeForever": "05:57:00",
+      "imgIconUrl": "7b36dde1b5631c436a1914c9b2a55672e4e1fb51",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 407530,
+      "name": "ARK: Survival Of The Fittest",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "807c673cddebbfee0700a947a75f4872ad136e9b",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 410210,
+      "name": "Ampersand",
+      "playtimeForever": "02:17:00",
+      "imgIconUrl": "de25f0cded9a0330950df2d6b82cfd49ea0a23b6",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 236110,
+      "name": "Dungeon Defenders II",
+      "playtimeForever": "02:02:00",
+      "imgIconUrl": "0ce07c2568f978a01c8ae5f4d9402c3253963641",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 412600,
+      "name": "Lup",
+      "playtimeForever": "02:01:00",
+      "imgIconUrl": "c0fbf31d46d13464614480ef1a24f5c13842cb51",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 413150,
+      "name": "Stardew Valley",
+      "playtimeForever": "08:41:00",
+      "imgIconUrl": "35d1377200084a4034238c05b0c8930451e2fb40",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 415960,
+      "name": "Energy Cycle",
+      "playtimeForever": "02:29:00",
+      "imgIconUrl": "a03cd59c7b841e7ae03290d90a4a3f62ac8bc642",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 416690,
+      "name": "Oh...Sir! Prototype",
+      "playtimeForever": "00:05:00",
+      "imgIconUrl": "b00f068e1153997f129374084d7127451449f395",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 418070,
+      "name": "Turbo Pug",
+      "playtimeForever": "01:59:00",
+      "imgIconUrl": "ac53f00d25ad44409a267d580e1243ca851af8fa",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 421040,
+      "name": "Plantera",
+      "playtimeForever": "02:16:00",
+      "imgIconUrl": "59e3b68f6dcfc375411d777393444ce91de783a6",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 422100,
+      "name": "Heaven Island Life",
+      "playtimeForever": "02:16:00",
+      "imgIconUrl": "685998a7b9bd45ddd2344cd70912634e8038fc6f",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 424840,
+      "name": "Little Nightmares",
+      "playtimeForever": "00:39:00",
+      "imgIconUrl": "1904c041f963b5e2cb22b56c370444517cc4e288",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 428950,
+      "name": "Kivi, Toilet and Shotgun",
+      "playtimeForever": "02:01:00",
+      "imgIconUrl": "81a0ed0b073e532dd5a4dff10e837862d8cc001b",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 431960,
+      "name": "Wallpaper Engine",
+      "playtimeForever": "04:39:00",
+      "imgIconUrl": "72edaed9d748c6cf7397ffb1c83f0b837b9ebd9d",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 433750,
+      "name": "The Grandfather",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "4b95cc79c02a23e6d5ef57a6244165bb8dd65b4b",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 435780,
+      "name": "VIOLET: Space Mission",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "59533ded5efd140ebba9f0c3a8c7ec1090e4f7e6",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 437530,
+      "name": "A Blind Legend",
+      "playtimeForever": "02:17:00",
+      "imgIconUrl": "dcaf038fcff4ba52d0c15fac4ac28ef530901ac6",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 438180,
+      "name": "Super Mustache",
+      "playtimeForever": "02:25:00",
+      "imgIconUrl": "293e6fe0338f5d9ac3f64b37211dcc409e0ea9d6",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 244930,
+      "name": "SNOW",
+      "playtimeForever": "00:01:00",
+      "imgIconUrl": "7e90f75e6236774b3e9069e17b3acc3491128166",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 437220,
+      "name": "The Culling",
+      "playtimeForever": "04:23:00",
+      "imgIconUrl": "68314798715c44705e5b69c9fd1199a60222effe",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 444090,
+      "name": "Paladins",
+      "playtimeForever": "1.06:04:00",
+      "imgIconUrl": "1565119c17f532338a0645b98e69e1fc1df0c29e",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 596350,
+      "name": "Paladins - Public Test",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "0a073dec4ffe8398b74369289d0c987134e35986",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 444640,
+      "name": "Bloons TD Battles",
+      "playtimeForever": "00:41:00",
+      "imgIconUrl": "8041a649686724400b5999a364b3bc8ad1840ac2",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 449200,
+      "name": "Calcu-Late",
+      "playtimeForever": "02:15:00",
+      "imgIconUrl": "a871343e0f2a1a968d962573885c1268b1350b0b",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 451880,
+      "name": "Catch a Falling Star",
+      "playtimeForever": "02:03:00",
+      "imgIconUrl": "3bc87206d801b7bd84a691b75b57eaa379a7d777",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 453480,
+      "name": "Shadowverse",
+      "playtimeForever": "01:22:00",
+      "imgIconUrl": "65663ec45ad1ea015a242fb7738ff06f38d114fe",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 454200,
+      "name": "Neon Hardcorps",
+      "playtimeForever": "02:01:00",
+      "imgIconUrl": "08ed96f731c0fd0375acc5c705fb165d5959695b",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 460790,
+      "name": "Bayonetta",
+      "playtimeForever": "01:19:00",
+      "imgIconUrl": "9c591c4d3d3d5e5164ba08465aaf4407d86301b9",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 461910,
+      "name": "Forge of Gods (RPG)",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "50902b8adc13c11fda64ffbcfe864b706488e075",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 466840,
+      "name": "Super Space Pug",
+      "playtimeForever": "02:28:00",
+      "imgIconUrl": "e87ab50236a30d2d59e1917a2fb6d410c447efa9",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 468560,
+      "name": "Blind Trust",
+      "playtimeForever": "00:03:00",
+      "imgIconUrl": "870568de8c47d4768957e78fb0d654a3191d06a9",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 469730,
+      "name": "Super Mega Neo Pug",
+      "playtimeForever": "02:01:00",
+      "imgIconUrl": "8074e0975a38c9a6376b02af4d8fdb18eeaa509a",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 470220,
+      "name": "UNO",
+      "playtimeForever": "07:30:00",
+      "imgIconUrl": "8714f533f03a77d88905b44e56b905e637478e75",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 473560,
+      "name": "Cosmic Dust & Rust",
+      "playtimeForever": "02:13:00",
+      "imgIconUrl": "6e69ecdfbd42dfe2c2d187a59d680a313d594044",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 485310,
+      "name": "Head Shot",
+      "playtimeForever": "01:58:00",
+      "imgIconUrl": "b53192e5f57462540c32ad33f17c8a6c775d8b34",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 485330,
+      "name": "Star Drifter",
+      "playtimeForever": "03:05:00",
+      "imgIconUrl": "5a046b207a0e5f3d3fc71b004f114b712d04993e",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 487220,
+      "name": "Freebie",
+      "playtimeForever": "02:00:00",
+      "imgIconUrl": "532fb41bbd5381c86d254a258dd498cf9ac0eef6",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 489520,
+      "name": "Minion Masters",
+      "playtimeForever": "02:07:00",
+      "imgIconUrl": "ad87d123224d786a413a6021ddaf9257e26c0a28",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 491950,
+      "name": "Orwell",
+      "playtimeForever": "00:50:00",
+      "imgIconUrl": "b441225f23801a11dce373c2ee9caea2061b3858",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 493650,
+      "name": "Deep Space Dash",
+      "playtimeForever": "02:11:00",
+      "imgIconUrl": "04ff5df3dee6f01682b5f056810e1286e73c674b",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 493700,
+      "name": "Monster Puzzle",
+      "playtimeForever": "02:02:00",
+      "imgIconUrl": "da1603b54f4a691c4176224b80ca9c56ae02faeb",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 493710,
+      "name": "Laraan",
+      "playtimeForever": "02:01:00",
+      "imgIconUrl": "e7bf0ccb3839840336c62033e346ee1fcf56bf3f",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 495350,
+      "name": "Woodle Tree 2: Worlds",
+      "playtimeForever": "02:18:00",
+      "imgIconUrl": "ca3f529694147c8334b11e08ccfba327378ea951",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 495910,
+      "name": "Dungeon Fighter Online",
+      "playtimeForever": "10:19:00",
+      "imgIconUrl": "5c004c9660e2a453199d2222f72407056cd97570",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 497050,
+      "name": "ShapeShifter",
+      "playtimeForever": "02:01:00",
+      "imgIconUrl": "c4610ed857750741b31f76076300c05c0fe886c3",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 499420,
+      "name": "Star Fields",
+      "playtimeForever": "02:00:00",
+      "imgIconUrl": "056f451cc0a85c64556194ec16ca2ebf01ab2273",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 273350,
+      "name": "Evolve Stage 2",
+      "playtimeForever": "01:11:00",
+      "imgIconUrl": "6b9e205c389185a4b0e079a13090c751e47375d2",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 502140,
+      "name": "Drayt Empire",
+      "playtimeForever": "02:15:00",
+      "imgIconUrl": "46f9f610b85ef99fa7b8bf8b073281a96f5bea1c",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 504230,
+      "name": "Celeste",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "04cb7aa0b497a3962e6b1655b7fd81a2cc95d18b",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 319630,
+      "name": "Life is Strange™",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "e54b13da0710a35e7088664a77632e79157d8332",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 508290,
+      "name": "$1 Ride",
+      "playtimeForever": "02:16:00",
+      "imgIconUrl": "e18167e033cb27313bccddaf19f70bb99cbbb625",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 509110,
+      "name": "Spikit",
+      "playtimeForever": "02:00:00",
+      "imgIconUrl": "a46ff9ca46eff0f08ae70e63a4d07292528e704c",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 512640,
+      "name": "Final Quest",
+      "playtimeForever": "02:11:00",
+      "imgIconUrl": "d4fc77158e508548f1745f3b7b393e92bfda273e",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 513740,
+      "name": "Joana's Life",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "40ef011d78cf47892e301997e79d96d9bb449137",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 513780,
+      "name": "Turbo Pug DX",
+      "playtimeForever": "02:01:00",
+      "imgIconUrl": "f040ae871b63b093712f198e2d679db6e97aef34",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 514550,
+      "name": "Beat The Dictators",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "11ebe0f600d458c97e6596ba067041340ba98c68",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 514580,
+      "name": "Cooking Witch",
+      "playtimeForever": "02:30:00",
+      "imgIconUrl": "68b94c6ae4c62f2c4f8ad90de8af64db36d322ef",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 514970,
+      "name": "Drive Megapolis",
+      "playtimeForever": "02:12:00",
+      "imgIconUrl": "cfcd57662462e3589151be071513215cedd91b02",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 515470,
+      "name": "Hyper color ball",
+      "playtimeForever": "02:01:00",
+      "imgIconUrl": "961dfd5a639a003a472174a0b92551c4563c329f",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 515690,
+      "name": "Warriors of Vilvatikta",
+      "playtimeForever": "02:01:00",
+      "imgIconUrl": "a991995e4bae77feb41601e2632b668f1082c442",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 518030,
+      "name": "Aim Hero",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "22edf4e1561ee18056a6dfb03299411cc3682cc0",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 521230,
+      "name": "Stone Age Wars",
+      "playtimeForever": "02:04:00",
+      "imgIconUrl": "94b88db4553998530308557b7ecf8ac6448c58f9",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 522210,
+      "name": "Serial Cleaner",
+      "playtimeForever": "04:21:00",
+      "imgIconUrl": "7acb2dab5cb88a0fd80e03f864e2148218356619",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 528510,
+      "name": "Turbo Pug 3D",
+      "playtimeForever": "02:00:00",
+      "imgIconUrl": "2c8be46badfc0e4d5e5dc6d925913bb66115585d",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 530700,
+      "name": "Argo",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "b827f64552754338bd272d6d2095714d77fa15cb",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 540020,
+      "name": "Final Quest II",
+      "playtimeForever": "02:14:00",
+      "imgIconUrl": "7e0055cc12f42ea10117f027405b367100a7331e",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 545700,
+      "name": "The Land of Dasthir",
+      "playtimeForever": "02:11:00",
+      "imgIconUrl": "e7818ee91e4f91fb8cde4b8eded2e4757320809a",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 546980,
+      "name": "Midnight Carnival",
+      "playtimeForever": "02:04:00",
+      "imgIconUrl": "39023f501dd876288f53063c552a80ce3fcf927b",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 546990,
+      "name": "Town of Night",
+      "playtimeForever": "02:03:00",
+      "imgIconUrl": "98fb72e068bd18aab9800f363f319e2535fc1d87",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 554530,
+      "name": "CRACKHEAD",
+      "playtimeForever": "02:30:00",
+      "imgIconUrl": "92f7228a0abd2745fb2e6800e8575c09c3148448",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 557680,
+      "name": "Germ Wars",
+      "playtimeForever": "02:00:00",
+      "imgIconUrl": "43477fa02fecaae9199d141469fb5b636c29222a",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 562270,
+      "name": "Shot Shot Tactic",
+      "playtimeForever": "02:07:00",
+      "imgIconUrl": "facfacc41d7219219e3182a737c535b6f221647a",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 575490,
+      "name": "Let's Draw",
+      "playtimeForever": "01:41:00",
+      "imgIconUrl": "849149ef7ebce726fbabbed1547795fe3c6b52ee",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 463150,
+      "name": "BARRIER X",
+      "playtimeForever": "02:15:00",
+      "imgIconUrl": "5792bafe89dc4479ce98e19376f37769cdeb55c8",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 578310,
+      "name": "BRAIN / OUT",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "e710a604dd870c0623aa9875ae9d9de1ce7e018f",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 582500,
+      "name": "We Were Here",
+      "playtimeForever": "02:59:00",
+      "imgIconUrl": "0462892516b1fa847c65b85f58faba4d652955f7",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 586620,
+      "name": "OR",
+      "playtimeForever": "02:01:00",
+      "imgIconUrl": "777ab4e8f5c56e1f7457bb25c44048643032ac22",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 588430,
+      "name": "Fallout Shelter",
+      "playtimeForever": "00:16:00",
+      "imgIconUrl": "bb39b682fefd9a95486911cd991d8cdc5d7b57c9",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 588650,
+      "name": "Dead Cells",
+      "playtimeForever": "09:58:00",
+      "imgIconUrl": "a431361e5dae5fd6ac2433064b62b2a37abc38f1",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 595440,
+      "name": "CPU Invaders",
+      "playtimeForever": "02:29:00",
+      "imgIconUrl": "6d4e6db89486c828579dcb4e2a5a6e9d6ebe46a5",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 596650,
+      "name": "Tap Adventure: Time Travel",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "2f676ca01d8b86047272193b1b30db68af7792ac",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 498320,
+      "name": "Trolley Gold",
+      "playtimeForever": "02:29:00",
+      "imgIconUrl": "e8775fcfd748ca36a8a98120cd541e1995e780ab",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 632470,
+      "name": "Disco Elysium",
+      "playtimeForever": "09:52:00",
+      "imgIconUrl": "b681544caa931c7c1a6788e6e3e33cb42892d17c",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 236150,
+      "name": "Starpoint Gemini 2",
+      "playtimeForever": "02:29:00",
+      "imgIconUrl": "4a5235626d7fe3fa433c7b47a55de7013774be1d",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 668830,
+      "name": "Raid On Coasts",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "a66df9b7c23a91de1cf5ce6febb75dfd9f90d932",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 323580,
+      "name": "Jotun: Valhalla Edition",
+      "playtimeForever": "01:25:00",
+      "imgIconUrl": "69b336a11a1e8acee4034b970a89c1df7cf53b32",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 697010,
+      "name": "Until None Remain",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "fd91f73522ae328fe16fb20cd84e139373940122",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 368420,
+      "name": "Mirage: Arcane Warfare",
+      "playtimeForever": "02:29:00",
+      "imgIconUrl": "c0b61f2a0d0499217b8b947eab1a995966dfe3c8",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 113020,
+      "name": "Monaco",
+      "playtimeForever": "02:29:00",
+      "imgIconUrl": "169e693854d9f70984987fa3b6b5f1f9eb27122a",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 737010,
+      "name": "Warhammer: Vermintide 2 Closed Test",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "a02bbe266096460058982ecddf57ecb7df92d842",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 215830,
+      "name": "Closers",
+      "playtimeForever": "07:16:00",
+      "imgIconUrl": "ad79b4d25902fe8a194719494a7cb78b7058d9d9",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 757170,
+      "name": "KOLOBOK",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "47f48c34dd4d2d38d529e9d2b02d030ac9d43826",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 231430,
+      "name": "Company of Heroes 2",
+      "playtimeForever": "02:31:00",
+      "imgIconUrl": "5e7e1866fb4f33a17393b0441cd1c750dbd91c5f",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 565020,
+      "name": "Global Adventures",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "0dad6ea7f029b035d040088552f748387c5f75bb",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 368230,
+      "name": "Kingdom: Classic",
+      "playtimeForever": "03:39:00",
+      "imgIconUrl": "0d741624c643448ff74741f50a4b80a24529b869",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 795100,
+      "name": "Friday the 13th: Killer Puzzle",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "a4bc5f16928232914b000ebf8f586979b6ff2cef",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 34270,
+      "name": "SEGA Mega Drive & Genesis Classics",
+      "playtimeForever": "01:09:00",
+      "imgIconUrl": "2cda9462fbaf9309e5aedce99ad8452adf8a40bd",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 4560,
+      "name": "Company of Heroes - Legacy Edition",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "64946619217da497c9b29bc817bb40dd7d28c912",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 228200,
+      "name": "Company of Heroes",
+      "playtimeForever": "02:31:00",
+      "imgIconUrl": "df92dc239acb3cf5d3e3eba645f3df2aaf7f91ad",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 209670,
+      "name": "Cortex Command",
+      "playtimeForever": "01:09:00",
+      "imgIconUrl": "2976d0e44d338d1f6136d222d8b2a764a1dfee2e",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 464920,
+      "name": "Surviving Mars",
+      "playtimeForever": "01:51:00",
+      "imgIconUrl": "6c0bbf943ed725a16304161b89061ac1d37f6a2a",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 236870,
+      "name": "HITMAN™",
+      "playtimeForever": "04:22:00",
+      "imgIconUrl": "a4c559b6a3a7706d2f6c44a84e1daa8532bee741",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 203770,
+      "name": "Crusader Kings II",
+      "playtimeForever": "01:41:00",
+      "imgIconUrl": "56e9c15cbeb6c1f873f7f1dc757bae7618861484",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 858210,
+      "name": "Nova Drift",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "5b679343f9b0c0f19bb50843c225ceb44f2e604f",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 868270,
+      "name": "The Cycle: Frontier",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "02005fcb9c24057b02bc71bfc897a947629db7f0",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 880940,
+      "name": "Pummel Party",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "b2261da6c4f14808955181d9b41fdc242685a325",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 737800,
+      "name": "F1 2018",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "6bde4fea9075bf74379941d696004e7b356c5af2",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 304390,
+      "name": "For Honor",
+      "playtimeForever": "08:28:00",
+      "imgIconUrl": "64dd8eca34f0b5faeda135f057da1973806852f2",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 654310,
+      "name": "For Honor - Public Test",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "64dd8eca34f0b5faeda135f057da1973806852f2",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 930210,
+      "name": "HuniePop 2: Double Date",
+      "playtimeForever": "01:52:00",
+      "imgIconUrl": "47b36d67e5f693477dd3da5636ade76d7ef33d8f",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 931690,
+      "name": "Himno",
+      "playtimeForever": "00:03:00",
+      "imgIconUrl": "f39d18bb03e8e0ce5aa47ac37602f095ff512d08",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 945360,
+      "name": "Among Us",
+      "playtimeForever": "22:13:00",
+      "imgIconUrl": "b82c3f46da8f3c918e1c9e0d18bd6fa8fcef6801",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 960090,
+      "name": "Bloons TD 6",
+      "playtimeForever": "03:50:00",
+      "imgIconUrl": "c5f0b67c8beeb6be99abe2ad8db2cada5d5ccff0",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 524220,
+      "name": "NieR:Automata™",
+      "playtimeForever": "02:03:00",
+      "imgIconUrl": "ec431ecb2a5178c5a01bb15550f112f93af029bb",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 325180,
+      "name": "AppGameKit Classic",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "56b06e662e5ffa0f3c1a8248ea0a15bdd4760498",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 976730,
+      "name": "Halo: The Master Chief Collection",
+      "playtimeForever": "06:09:00",
+      "imgIconUrl": "196a45d8df1981ff6b6b1872a38dc38f6c22875d",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 1113560,
+      "name": "NieR Replicant ver.1.22474487139...",
+      "playtimeForever": "1.01:02:00",
+      "imgIconUrl": "8ca16d03995179d1ba3a2263e03db170100c6382",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 1147560,
+      "name": "Skul: The Hero Slayer",
+      "playtimeForever": "21:42:00",
+      "imgIconUrl": "a236593e8d5c8d6fdf3db3d004b9d37c0debf3b4",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 1172470,
+      "name": "Apex Legends",
+      "playtimeForever": "3.09:22:00",
+      "imgIconUrl": "070902d2389878ac4bf29efb5b92832c60bdf24e",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 582660,
+      "name": "Black Desert",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "bf5ccace0a692720984827bf042143d0d4b28a42",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 406970,
+      "name": "The Uncertain: Last Quiet Day",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "e93fd61da0af4423b57e9dd92e27597c9b78183f",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 555000,
+      "name": "GOAT OF DUTY",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "db089f15dc9d6efaa71611985c9826641acc2170",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 760620,
+      "name": "Deiland",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "7c4a8c6b0b7e25dbdee9b18abf230e0f62dd684d",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 442070,
+      "name": "Drawful 2",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "a2aab99a9ec657f817aff247593b3310cae44288",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 203160,
+      "name": "Tomb Raider",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "3ee640a8aba6992678e36f4e40cba9c71c02348b",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 289690,
+      "name": "Lara Croft and the Temple of Osiris",
+      "playtimeForever": "00:55:00",
+      "imgIconUrl": "920993a056262fb03a012c34ac9766350901021c",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 814200,
+      "name": "Simple Story - Alex",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "c3ce34699e92b4db2ee71a407509e12761d19606",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 628950,
+      "name": "Nephise Begins",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "ef5775dae714948886abeb8df2ec3e198c562c2c",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 1158500,
+      "name": "Between Two Castles - Digital Edition",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "a62d71a0a03c53ab5d6ac852dfdcc8b0d9d700b5",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 702150,
+      "name": "Project Mercury",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "dde399d9cc2e8aab9a6256b9035b2b49e1843184",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 3720,
+      "name": "Evil Genius",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "35d050db7d537eabf867b1a2394671fed2b5122b",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 335190,
+      "name": "200% Mixed Juice!",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "edb5dee52760d6b312c748debaf27444f7d24f8e",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 390710,
+      "name": "Acceleration of SUGURI 2",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "1bc9a3edc1a1291f91dafab6040cecc137e8b6cc",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 282800,
+      "name": "100% Orange Juice",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "baaf4be38deeb8a631567ee6c651ca23b65c834a",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 420740,
+      "name": "The Deed",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "39d10c70200e26356e7ca7c5cd4ec9b9a7381200",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 350300,
+      "name": "Gang of Four",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "0e1cdd35817c7ca110be6eb1ff672865126030b0",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 600430,
+      "name": "Ticket to Ride: First Journey",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "6787430ed26c3b619ba1cf31a3fab3bc70fbdaae",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 699240,
+      "name": "Keyboard Killers",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "4f926708b3020cd43640bdc536af2bb120c22e67",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 348510,
+      "name": "Autobahn Police Simulator",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "c0fe0e971e5f0d20b2634854e7811e058891f5ad",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 640890,
+      "name": "Will Glow the Wisp",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "cda5fb3fc1f01275c79de4fa2cb1a5b03899c4c2",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 680360,
+      "name": "Regions Of Ruin",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "d8f045e06bc779e2f46718cf05dea4132365a04a",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 835950,
+      "name": "Transpose",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "dbb845b5d55413d94b0fd562196635304163ceda",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 1078000,
+      "name": "Gamecraft",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "a6da5acb26919c298c812ae2e8e6dff421c0609a",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 727020,
+      "name": "Arcade Moonlander",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "b5c5a4d02c4860f3db7f1acce9d9d826ac905ae3",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 368180,
+      "name": "Polyball",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "5601af6a0de985425c73e057e96249a905d42bda",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 308600,
+      "name": "Gene Shift Auto",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "e0ba85c5d76697b6c1f8999f4ee5691eda138185",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 441380,
+      "name": "PAC-MAN™ CHAMPIONSHIP EDITION 2",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "782fe2de0839f6898e2dc1d220f9ed229563a9d3",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 34330,
+      "name": "Total War: SHOGUN 2",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "2fa97296a62daf0329b3867ad6837a2289229fbb",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 1076280,
+      "name": "Showdown Bandit",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "07bd97df0dd2ad7bc9f8178eeb2cb057fadff8df",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 435790,
+      "name": "10 Second Ninja X",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "23b4f652d3c3c2716ba1d44181bfd1f39c556c69",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 371140,
+      "name": "Aegis Defenders",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "cad07b03cccb3aa0d727a9ca56c74fefa62d722c",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 640590,
+      "name": "The LEGO® NINJAGO® Movie Video Game",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "e73b26c11ea3dd22910565c0621a3f511ea943d3",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 579110,
+      "name": "Interkosmos",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "86933d9dc3ec8349db85345a2568e3c5548fb543",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 1332010,
+      "name": "Stray",
+      "playtimeForever": "01:19:00",
+      "imgIconUrl": "7794cc0b4e70bd3e4b9a0d07e2570ab8668c5f0b",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 1048540,
+      "name": "Kao the Kangaroo: Round 2",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "6e1b26ff2784ab5695396695708e16a7c9a07be9",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 242700,
+      "name": "Injustice: Gods Among Us Ultimate Edition",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "4ea9f28360ca77b2ced5c8ac5545fcfc6ea8ef15",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 209630,
+      "name": "Magrunner: Dark Pulse",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "bd8b700d77e479696eaef762fc80097e4ae5e8e2",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 919220,
+      "name": "Destiny or Fate",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "cf863ffed3dcc7e593c210808bcf22779a988d12",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 465760,
+      "name": "Scrap Garden",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "340656d5dbd647d42642987b25791d720d2485b7",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 1449850,
+      "name": "Yu-Gi-Oh!  Master Duel",
+      "playtimeForever": "10:19:00",
+      "imgIconUrl": "df974d78936147bfc422f161f5f6e4c84ef95648",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 1497640,
+      "name": "Traitors in Salem",
+      "playtimeForever": "00:07:00",
+      "imgIconUrl": "4939a2322cc6bcba1c8f7c6c0e969dfaf278d9ed",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 537800,
+      "name": "Bomber Crew",
+      "playtimeForever": "01:37:00",
+      "imgIconUrl": "8af44d76dd3688b8b5b12a7fd9091f6d32fd3703",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 1533420,
+      "name": "Neon White",
+      "playtimeForever": "03:58:00",
+      "imgIconUrl": "0c26e58be78678cb80716370bd607778d85b3ab5",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 616560,
+      "name": "Ultimate Epic Battle Simulator",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "808ec0919be68550c107fc513522633dc7656885",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 836620,
+      "name": "Black Desert (Retired)",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "fd76e9933c56ebb5536b0396cfdf7c2dcd3e029c",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 35130,
+      "name": "Lara Croft and the Guardian of Light",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "b06fc7740d5e2e02ffd47fec3c56f7d38534f598",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 43110,
+      "name": "Metro 2033",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "a70fe6dc214f24107d20596f3040dbfa220ed42d",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 351510,
+      "name": "Quiplash",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "5e089d7b28f730310523c1ce4139ccee230dbd55",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 1621690,
+      "name": "Core Keeper",
+      "playtimeForever": "02:30:00",
+      "imgIconUrl": "661ff82410b3c1c49e0f6a5e3715c445dbccfb77",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 94300,
+      "name": "The Dream Machine",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "6c876b1ffd82d9aeb59cdde2520c6939610e0acc",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 1022310,
+      "name": "Warhammer Underworlds - Shadespire Edition",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "a9d25e962b0fdc70ddf1f18cbb4bd009876a0244",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 613900,
+      "name": "Museum of Other Realities",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "3cb3c9033a81122b2c262cfee741bb7053bcbba6",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 65790,
+      "name": "Arma: Cold War Assault",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "5ab8e51f1ec9ea4f2524ccff87106a187bdcd52b",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 297130,
+      "name": "Titan Souls",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "37ab14d4261626c8850487467ff38b2fc3d71f5b",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 1240440,
+      "name": "Halo Infinite",
+      "playtimeForever": "03:36:00",
+      "imgIconUrl": "ec684b943169d675439f6cdf64fa2f2aa90d9821",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 475150,
+      "name": "Titan Quest Anniversary Edition",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "be3384e7936f548303c77ee2abc4c9026285f554",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 283270,
+      "name": "Jagged Alliance Gold",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "86a354502320aa70da2bc7e441db5e311c7c369d",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 46500,
+      "name": "Syberia",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "bd19a0149639c539662f8bfc6086623dcd517214",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 475550,
+      "name": "Beholder",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "1025e7d1606b1e7a7f17048532039d78241e9f5d",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 1794680,
+      "name": "Vampire Survivors",
+      "playtimeForever": "10:03:00",
+      "imgIconUrl": "b09d9a388f5328ec977f7b45228ac8ae21a78c55",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 556130,
+      "name": "Drones, The Human Condition",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "e8924f0912fd03de1e3d8c1e917bbe4d90c4488a",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 571310,
+      "name": "SteamWorld Dig 2",
+      "playtimeForever": "02:21:00",
+      "imgIconUrl": "dd93b3ef55eca4f9b30dac04450bf03fed2c31a6",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 204450,
+      "name": "Call of Juarez Gunslinger",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "b9a00d132852719cd6e6c2be3f3d0fdf669ed7ce",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 520720,
+      "name": "Dear Esther: Landmark Edition",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "886a70c7c78c240da7daa1de01490b44c9855f89",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 1455900,
+      "name": "Plunder Panic",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "8356fd47e11e23ecd2f3f345e6ee5e864005ef15",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 1911390,
+      "name": "Knightfall: A Daring Journey",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "8e09cd2255f59c3b079f31525853639fb8ad39e2",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 1515950,
+      "name": "Capcom Arcade Stadium",
+      "playtimeForever": "00:12:00",
+      "imgIconUrl": "2715c826a625a0cac409491c1982a459a71f7349",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 485450,
+      "name": "Ninja Stealth",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "445001aca721a3601d0f8751321d76145afa55af",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 346110,
+      "name": "ARK: Survival Evolved",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "fef1799533131c10f538d2dd697bbbd89e663265",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 699920,
+      "name": "Despotism 3k",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "be7dca32438ad6df7980047500b0c1a1898fc9fa",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 2140510,
+      "name": "Town of Salem 2",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "7122d4be42d1412846b2d27ff5458f879aaf1de0",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 1294660,
+      "name": "Divine Knockout (DKO)",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "2f2112d19f357a6bdaccafbdda5bd3ad82bb0d9f",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 2296990,
+      "name": "We Were Here Expeditions: The FriendShip",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "d46715ccbf52a046bf65db2fc1ead06aa8c1fe06",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 1712840,
+      "name": "Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot Adventure",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "244954d1c6b9516a6a14c534ad0162b36cd7cbe8",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 1144770,
+      "name": "SLUDGE LIFE",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "cd91eebd4b1f4064f460769fd8477fb7a6a2bffa",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 544610,
+      "name": "Battlestar Galactica Deadlock",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "9f04e46ee137eac4bcd300c566c91c858abb3c55",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 226620,
+      "name": "Desktop Dungeons",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "f4c30e39f4ce6da904793d7c91db59a0a70b8b3a",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 660160,
+      "name": "Field of Glory II",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "69e42fb6bde64f155cd5efc2f5c5a4642c18e9a4",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 43160,
+      "name": "Metro: Last Light Complete Edition",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "7b84b80d2cebe41ba87c59b28e2473d3b33e797d",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 489630,
+      "name": "Warhammer 40,000: Gladius - Relics of War",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "ba6ea4fbeec62073763e103450e8aa7c5373d010",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 443910,
+      "name": "TGV Voyages Train Simulator",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "0528f1a6691fcb037f9a799cda9c35f0a3a26a48",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": false,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 383270,
+      "name": "Hue",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "48682a5e83cf7f011a15b68f460a972635742d06",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    },
+    {
+      "appId": 249050,
+      "name": "Dungeon of the ENDLESS™",
+      "playtimeForever": "00:00:00",
+      "imgIconUrl": "19f66db5192b05b71068dd243729c3d8b0d71f65",
+      "imgLogoUrl": null,
+      "hasCommunityVisibleStats": true,
+      "playtimeLastTwoWeeks": null
+    }
+  ]
+}

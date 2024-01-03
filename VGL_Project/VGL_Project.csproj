@@ -22,6 +22,7 @@
     <PackageReference Include="MySql.Data" Version="8.2.0" />
     <PackageReference Include="Owin.Security.Providers.Steam" Version="2.26.0" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
+    <PackageReference Include="SteamWebAPI2" Version="4.4.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 

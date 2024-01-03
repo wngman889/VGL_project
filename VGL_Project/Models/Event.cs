@@ -8,11 +8,11 @@ namespace VGL_Project.Models
         [Key]
         public int Id { get; set; }
 
-        [Column("author_id")]
+        [Column("AuthorId")]
         public int AuthorId { get; set; }
         public required User Author { get; set; }
 
-        [Column("game_id")]
+        [Column("GameId")]
         public int GameId { get; set; }
         public required Game Game { get; set; }
 
