@@ -21,7 +21,7 @@ namespace VGL_Project.Controllers
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
-        [HttpPost]
+        [HttpPost("add-event")]
         public async Task<IActionResult> AddEvent(string description, DateTime date, int gameId, int authorId)
         {
             await _eventService.AddEvent(description, date, gameId, authorId);
@@ -104,7 +104,7 @@ namespace VGL_Project.Controllers
             }
         }
 
-        [HttpDelete]
+        [HttpDelete("delete-event")]
         public async Task<IActionResult> DeleteEvent(int id)
         {
             try
