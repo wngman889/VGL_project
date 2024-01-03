@@ -23,7 +23,7 @@ namespace VGL_Project.Models
 
         [Column("profile_desc")]
         [MaxLength(255)]
-        public required string ProfileDesc { get; set; }
+        public /*required*/ string? ProfileDesc { get; set; }
 
         [Column("created_at")]
         public DateTime CreatedAt { get; set; } = DateTime.Now;

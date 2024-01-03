@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using MySql.Data.MySqlClient;
 using VGL_Project.Models;
 using VGL_Project.Models.Interfaces;
 using VGL_Project.Services;
