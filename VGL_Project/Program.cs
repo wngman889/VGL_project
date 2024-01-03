@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using VGL_Project.Data;
 using VGL_Project.Models.Interfaces;

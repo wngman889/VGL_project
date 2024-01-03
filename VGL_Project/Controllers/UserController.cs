@@ -17,20 +17,20 @@ namespace VGL_Project.Controllers
             this._userService = userService;
         }
 
-        [HttpPost]
-        public async Task<IActionResult> AddUser(string username, string password, string email, string profileDesc)
+        [HttpPost("register")]
+        public async Task<IActionResult> AddUser(string username, string password, string email/*, string profileDesc*/)
         {
-            var result = await _userService.AddUser(username, password, email, profileDesc);
+            var result = await _userService.AddUser(username, password, email/*, profileDesc*/);
 
             if(!result) return BadRequest();
 
             return Ok("User Created");
         }
 
-        [HttpGet("get-user-by-id")]
-        public async Task<IActionResult> GetUser(int id)
+        [HttpGet("login")]
+        public async Task<IActionResult> GetUser(string email, string password)
         {
-            var result = await _userService.GetUser(id);
+            var result = await _userService.GetUser(email, password);
 
             if (result == null) return NotFound();
 
