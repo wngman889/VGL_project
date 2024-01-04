@@ -24,7 +24,7 @@ namespace VGL_Project.Models
         [Column("CreatedAt")]
         public DateTime CreatedAt { get; set; } = DateTime.Now;
 
-        [Column("steam_id")]
+        [Column("SteamId")]
         [MaxLength(255)]
         public required string? SteamId { get; set; }
 
