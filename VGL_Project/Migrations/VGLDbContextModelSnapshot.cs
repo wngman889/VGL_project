@@ -26,7 +26,8 @@ namespace VGL_Project.Migrations
                         .HasColumnType("int");
 
                     b.Property<int>("AuthorId")
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("AuthorId");
 
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime(6)");
@@ -37,7 +38,8 @@ namespace VGL_Project.Migrations
                         .HasColumnType("varchar(255)");
 
                     b.Property<int>("GameId")
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("GameId");
 
                     b.HasKey("Id");
 
@@ -55,10 +57,12 @@ namespace VGL_Project.Migrations
                         .HasColumnType("int");
 
                     b.Property<int>("EventId")
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("EventId");
 
                     b.Property<int>("ParticipantId")
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("ParticipantId");
 
                     b.HasKey("Id");
 
@@ -78,7 +82,8 @@ namespace VGL_Project.Migrations
                     b.Property<string>("GameDesc")
                         .IsRequired()
                         .HasMaxLength(255)
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(255)")
+                        .HasColumnName("GameDesc");
 
                     b.Property<string>("Genre")
                         .IsRequired()
@@ -102,10 +107,12 @@ namespace VGL_Project.Migrations
                         .HasColumnType("int");
 
                     b.Property<int>("AuthorId")
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("AuthorId");
 
                     b.Property<int>("GameId")
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("GameId");
 
                     b.Property<int>("Rating")
                         .HasColumnType("int");
@@ -113,12 +120,14 @@ namespace VGL_Project.Migrations
                     b.Property<string>("ReviewDescription")
                         .IsRequired()
                         .HasMaxLength(255)
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(255)")
+                        .HasColumnName("ReviewDescription");
 
                     b.Property<string>("ReviewTitle")
                         .IsRequired()
                         .HasMaxLength(255)
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(255)")
+                        .HasColumnName("ReviewTitle");
 
                     b.HasKey("Id");
 
@@ -136,7 +145,8 @@ namespace VGL_Project.Migrations
                         .HasColumnType("int");
 
                     b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime(6)");
+                        .HasColumnType("datetime(6)")
+                        .HasColumnName("CreatedAt");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -148,10 +158,10 @@ namespace VGL_Project.Migrations
                         .HasMaxLength(255)
                         .HasColumnType("varchar(255)");
 
-                    b.Property<string>("ProfileDesc")
-                        .IsRequired()
+                    b.Property<string>("SteamId")
                         .HasMaxLength(255)
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(255)")
+                        .HasColumnName("steam_id");
 
                     b.Property<string>("Username")
                         .IsRequired()
@@ -170,10 +180,12 @@ namespace VGL_Project.Migrations
                         .HasColumnType("int");
 
                     b.Property<int>("GameId")
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("GameId");
 
                     b.Property<int>("OwnerId")
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("OwnerId");
 
                     b.Property<string>("Status")
                         .IsRequired()

@@ -18,9 +18,9 @@ namespace VGL_Project.Controllers
         }
 
         [HttpPost("register")]
-        public async Task<IActionResult> AddUser(string username, string password, string email/*, string profileDesc*/)
+        public async Task<IActionResult> AddUser(string username, string password, string email, string steamId)
         {
-            var result = await _userService.AddUser(username, password, email/*, profileDesc*/);
+            var result = await _userService.AddUser(username, password, email, steamId);
 
             if(!result) return BadRequest();
 

@@ -39,7 +39,7 @@ namespace VGL_Project.Services
         /// If the user creation is successful, the method returns true; otherwise, it logs an error using the ILogger and returns false.
         /// Note: It is recommended to encrypt or hash the password for security. 
         /// </remarks>
-        public async Task<bool> AddUser(string username, string password, string email/*, string profileDesc*/)
+        public async Task<bool> AddUser(string username, string password, string email, string steamId)
         {
             try
             {
@@ -48,7 +48,7 @@ namespace VGL_Project.Services
                     Username = username,
                     Password = Encode(password),
                     Email = email,
-                    //ProfileDesc = profileDesc
+                    SteamId = steamId
                 };
 
                 _dbContext.Users.Add(newUser);
@@ -168,7 +168,7 @@ namespace VGL_Project.Services
             }
         }
 
-        public async Task<bool> UpdateUser(int id, string newUsername, string newPassword, string newEmail, string newProfileDesc)
+        public async Task<bool> UpdateUser(int id, string newUsername, string newPassword, string newEmail, string steamId)
         {
             try
             {
@@ -180,7 +180,6 @@ namespace VGL_Project.Services
                 existingUser.Username = newUsername;
                 existingUser.Password = newPassword;
                 existingUser.Email = newEmail;
-                existingUser.ProfileDesc = newProfileDesc;
 
                 await _dbContext.SaveChangesAsync();
 
