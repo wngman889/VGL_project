@@ -161,7 +161,7 @@ namespace VGL_Project.Migrations
                     b.Property<string>("SteamId")
                         .HasMaxLength(255)
                         .HasColumnType("varchar(255)")
-                        .HasColumnName("steam_id");
+                        .HasColumnName("SteamId");
 
                     b.Property<string>("Username")
                         .IsRequired()

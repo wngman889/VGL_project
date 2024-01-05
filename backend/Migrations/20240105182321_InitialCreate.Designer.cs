@@ -11,7 +11,7 @@ using VGL_Project.Data;
 namespace VGL_Project.Migrations
 {
     [DbContext(typeof(VGLDbContext))]
-    [Migration("20240104152459_InitialCreate")]
+    [Migration("20240105182321_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -164,7 +164,7 @@ namespace VGL_Project.Migrations
                     b.Property<string>("SteamId")
                         .HasMaxLength(255)
                         .HasColumnType("varchar(255)")
-                        .HasColumnName("steam_id");
+                        .HasColumnName("SteamId");
 
                     b.Property<string>("Username")
                         .IsRequired()

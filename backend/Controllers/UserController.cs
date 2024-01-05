@@ -3,6 +3,7 @@ using SteamWebAPI2.Interfaces;
 using SteamWebAPI2.Utilities;
 using VGL_Project.Models.Interfaces;
 using VGL_Project.Models.Constants;
+using VGL_Project.Models.DTO;
 
 namespace VGL_Project.Controllers
 {
@@ -18,19 +19,19 @@ namespace VGL_Project.Controllers
         }
 
         [HttpPost("register")]
-        public async Task<IActionResult> AddUser(string username, string password, string email, string steamId)
+        public async Task<IActionResult> AddUser([FromBody] RegisterDTO register)
         {
-            var result = await _userService.AddUser(username, password, email, steamId);
+            var result = await _userService.AddUser(register.Username, register.Password, register.Email, register.SteamId);
 
             if(!result) return BadRequest();
 
             return Ok("User Created");
         }
 
-        [HttpGet("login")]
-        public async Task<IActionResult> GetUser(string email, string password)
+        [HttpPost("login")]
+        public async Task<IActionResult> GetUser([FromBody] LoginDTO login)
         {
-            var result = await _userService.GetUser(email, password);
+            var result = await _userService.GetUser(login.Email, login.Password);
 
             if (result == null) return NotFound();
 

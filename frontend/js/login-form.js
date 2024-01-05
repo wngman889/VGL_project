@@ -1,3 +1,4 @@
+import axios from "axios";
 // The Whole Login Container
 const logincontainer = document.querySelector(".login-form-wrapper");
 // Exit Icon
@@ -115,39 +116,47 @@ window.addEventListener('scroll', function() {
 
 // FORM REQUEST ENDPOINT STUFF
 
-const loginEndpoint = "https://your-server.com/api/login";
-const registerEndpoint = "https://your-server.com/api/register";
+const loginEndpoint = "http://localhost:5077/api/User/login";
+const registerEndpoint = "http://localhost:5077/api/User/register";
 
-const loginForm = document.querySelector(".input-form");
-const registerForm = document.querySelector(".unselected-form");
+const form = document.querySelector(".input-form");
 
-loginForm.addEventListener("submit", function (event) {
+form.addEventListener("submit", async function (event) {
   event.preventDefault();
 
-  // Gather login form data
-  const email = loginForm.querySelector('input[type="email"]').value;
-  const password = loginForm.querySelector('input[type="password"]').value;
+  const email = form.querySelector('input[type="email"]').value;
+  const password = form.querySelector('input[type="password"]').value;
 
-  // Make a login request
-  fetch(loginEndpoint, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({ email, password }),
-  })
-    .then((response) => response.json())
-    .then((data) => {
-      // Check the response from the server
-      if (data.status === "OK") {
-        // Successfully logged in, you can redirect or perform other actions
-        window.location.href = "profile.html";
-      } else {
-        // Handle login error, display a message, or do other actions
-        console.error("Login failed:", data.message);
-      }
-    })
-    .catch((error) => {
-      console.error("Error during login request:", error);
-    });
+  if (!loginSelected) {
+    const steamid = form.querySelector('input[placeholder="SteamId"]').value;
+    const name = form.querySelector('input[placeholder="Name"]').value;
+
+    try {
+      const response = await axios.post(registerEndpoint, {
+        "username": name,
+        "password": password,
+        "email": email,
+        "steamId": steamid
+      });
+
+      localStorage.setItem("SteamId",response.data.steamId);
+
+      console.log("Response:", response.data);
+    } catch (error) {
+      console.error("Registration failed:", error.message);
+    }
+  } else {
+    try {
+      const response = await axios.post(loginEndpoint, {
+        "email": email,
+        "password": password,
+      });
+      
+      localStorage.setItem("SteamId",response.data.steamId);
+
+      console.log("Response:", response.data.steamId);
+    } catch (error) {
+      console.error("Registration failed:", error.message);
+    }
+  }
 });

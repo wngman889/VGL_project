@@ -1,13 +1,17 @@
 document.addEventListener("DOMContentLoaded", function () {
+  if(localStorage.getItem("SteamId") != null)
+  {
+    window.location.href = 'profile.html';
+  }
   const reviewsData = [
-    { username: "Olympic57", imageSrc: "imgs/recommendations/game1.jpg" },
-    { username: "Beastry", imageSrc: "imgs/recommendations/game2.jpg" },
-    { username: "Stef", imageSrc: "imgs/recommendations/game3.jpg" },
-    { username: "Gali", imageSrc: "imgs/recommendations/game4.webp" },
-    { username: "Hyport77", imageSrc: "imgs/recommendations/game7.webp" },
-    { username: "Featurelynk", imageSrc: "imgs/recommendations/game6.jpg" },
-    { username: "Anderha38", imageSrc: "imgs/recommendations/game8.jpg" },
-    { username: "iiChelagii", imageSrc: "imgs/recommendations/game9.jpg" },
+    { username: "Olympic57", imageSrc: "../public/recommendations/game1.jpg" },
+    { username: "Beastry", imageSrc: "../public/recommendations/game2.jpg" },
+    { username: "Stef", imageSrc: "../public/recommendations/game3.jpg" },
+    { username: "Gali", imageSrc: "../public/recommendations/game4.webp" },
+    { username: "Hyport77", imageSrc: "../public/recommendations/game7.webp" },
+    { username: "Featurelynk", imageSrc: "../public/recommendations/game6.jpg" },
+    { username: "Anderha38", imageSrc: "../public/recommendations/game8.jpg" },
+    { username: "iiChelagii", imageSrc: "../public/recommendations/game9.jpg" },
   ];
 
   function createReviewCard(username, imageSrc) {

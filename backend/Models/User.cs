@@ -28,7 +28,6 @@ namespace VGL_Project.Models
         [MaxLength(255)]
         public required string? SteamId { get; set; }
 
-
         public List<UserGame> OwnedGames { get; set; }
 
         public List<ReviewRecommendation> AuthoredReviews { get; set; }

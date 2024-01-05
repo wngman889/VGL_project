@@ -6,14 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The VGL Project</title>
 
-    <link rel="stylesheet" href="styles/header.css" />
-    <link rel="stylesheet" href="styles/heropage.css" />
-    <link rel="stylesheet" href="styles/login-form.css" />
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/heropage.css" />
+    <link rel="stylesheet" href="../styles/login-form.css" />
 
-    <link sizes="32x32" rel="icon" href="imgs/misc/web-logo.png" />
+    <link sizes="32x32" rel="icon" href="../public/misc/web-logo.png" />
 
-    <script defer src="js/login-form.js"></script>
-    <script defer src="js/heropage/reviews.js"></script>
+    <script type="module" defer src="../js/login-form.js"></script>
+    <script defer src="../js/heropage/reviews.js"></script>
+    <!-- <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"
+    ></script> -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -28,7 +32,7 @@
       <div class="header">
         <div class="left-section">
           <a href="heropage.html"
-            ><img src="imgs/misc/logo.png" alt="Website Logo"
+            ><img src="../public/misc/logo.png" alt="Website Logo"
           /></a>
 
           <div class="title-text">The Game List</div>
@@ -40,13 +44,17 @@
       </div>
     </header>
     <!-- Background -->
-    <img class="heropage-background" src="imgs/heropage/gifche.gif" alt="" />
+    <img
+      class="heropage-background"
+      src="../public/heropage/gifche.gif"
+      alt=""
+    />
     <div class="heropage-background-overlay"></div>
     <!-- Login Form -->
     <div class="login-form-wrapper">
       <div class="login-container">
         <!-- Close Icon -->
-        <img class="login-close" src="imgs/misc/close-icon.png" alt="" />
+        <img class="login-close" src="../public/misc/close-icon.png" alt="" />
         <!-- Input Form -->
         <form action="profile.html" class="input-form">
           <!-- Login Oontainer -->
@@ -57,17 +65,17 @@
             <div class="login-options">
               <img
                 class="login-option-icon"
-                src="imgs/misc/facebook-icon.png"
+                src="../public/misc/facebook-icon.png"
                 alt=""
               />
               <img
                 class="login-option-icon"
-                src="imgs/misc/google-icon.png"
+                src="../public/misc/google-icon.png"
                 alt=""
               />
               <img
                 class="login-option-icon"
-                src="imgs/misc/twitter-icon.png"
+                src="../public/misc/twitter-icon.png"
                 alt=""
               />
             </div>
@@ -139,7 +147,7 @@
         <!-- Joycon Picture -->
         <img
           class="learn-more-background"
-          src="imgs/heropage/background2.png"
+          src="../public/heropage/background2.png"
           alt=""
         />
         <!-- Collect ... -->
@@ -173,7 +181,7 @@
       <section id="section-become-part">
         <img
           class="heropage-background"
-          src="imgs/heropage/gifche2.gif"
+          src="../public/heropage/gifche2.gif"
           alt=""
         />
         <div class="becomepart-background-overlay"></div>

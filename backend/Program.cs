@@ -18,11 +18,13 @@ namespace VGL_Project
 
             builder.Services.AddCors(options =>
             {
-                options.AddPolicy("AllowSpecificOrigins",
-                    builder =>
-                    {
-                        builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
-                    });
+                options.AddPolicy("AllowOrigin",
+                    builder => builder
+                        .WithOrigins("http://localhost:5173")
+                        .AllowCredentials()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader()
+                );
             });
 
             builder.Services.AddDbContext<VGLDbContext>(options =>
@@ -47,27 +49,9 @@ namespace VGL_Project
             }
 
             // Configure method
-            app.UseCors("AllowSpecificOrigins");
-
-            app.Use(async (context, next) =>
-            {
-                if (context.Request.Method == "OPTIONS")
-                {
-                    context.Response.Headers.Add("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
-                    context.Response.Headers.Add("Access-Control-Allow-Headers", "Content-Type");
-                    context.Response.StatusCode = 200;
-                    await context.Response.CompleteAsync();
-                }
-                else
-                {
-                    await next();
-                }
-            });
-
-            app.UseHttpsRedirection();
+            app.UseCors("AllowOrigin");
 
             app.UseAuthorization();
-
 
             app.MapControllers();
 

@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MySql.Data.MySqlClient;
+using Org.BouncyCastle.Crypto.Generators;
 using Owin.Security.Providers.OpenIDBase.Infrastructure;
 using System.Data;
 using VGL_Project.Data;
@@ -46,7 +47,7 @@ namespace VGL_Project.Services
                 var newUser = new User
                 {
                     Username = username,
-                    Password = Encode(password),
+                    Password = BCrypt.Net.BCrypt.HashPassword(password),
                     Email = email,
                     SteamId = steamId
                 };
@@ -82,11 +83,21 @@ namespace VGL_Project.Services
         {
             try
             {
-                var user = await _dbContext.Users
-                    .Where(u => u.Email == email && u.Password == Encode(password))
-                    .FirstOrDefaultAsync();
-                    //var user = await _dbContext.Users.FindAsync(userId);
-                    return user;
+                var user = await _dbContext.Users.FirstOrDefaultAsync(u => u.Email == email);
+
+                if(user is null)
+                {
+                    return null;
+                }
+
+                var correctPassword = BCrypt.Net.BCrypt.Verify(password, user.Password);
+
+                if (!correctPassword)
+                {
+                    return null;
+                }
+
+                return user;
             }
             catch (Exception ex)
             {
@@ -211,47 +222,6 @@ namespace VGL_Project.Services
             {
                 _logger.LogError(ex.Message);
                 return false;
-            }
-        }
-
-        public static string Encode(string password)
-        {
-            try
-            {
-                byte[] EncDataByte = new byte[password.Length];
-                EncDataByte = System.Text.Encoding.UTF8.GetBytes(password);
-                string EncryptedData = Convert.ToBase64String(EncDataByte);
-
-                return EncryptedData;
-            }
-            catch (Exception ex)
-            {
-
-                throw new Exception("Error in Encode:", ex);
-            }
-        }
-
-        public static string Decode(string encryptedData)
-        {
-            try
-            {
-                System.Text.UTF8Encoding encoder = new System.Text.UTF8Encoding();
-                System.Text.Decoder uTF8Decoder = encoder.GetDecoder();
-                byte[] decodeByte = Convert.FromBase64String(encryptedData);
-
-                //get the estimated number of characters that will be produced by decoding the specified byte array
-                int charCount = uTF8Decoder.GetCharCount(decodeByte, 0, decodeByte.Length);
-
-                char[] decodeChar = new char[charCount];
-                uTF8Decoder.GetChars(decodeByte, 0, decodeByte.Length, decodeChar, 0);
-                string decryptedData = new string(decodeChar);
-
-                return decryptedData;
-            }
-            catch (Exception ex)
-            {
-
-                throw new Exception("Error in Encode:", ex);
             }
         }
     }
