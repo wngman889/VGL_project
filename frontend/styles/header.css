@@ -1,0 +1,72 @@
+/* General Header CSS */
+.header {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  z-index: 10000;
+  width: 95%;
+  height: 6rem;
+  border-radius: 0px 0px 30px 30px;
+  background: linear-gradient(90.27deg, #ff5c00 15.76%, #ff9838 100%);
+}
+.header-container {
+  display: flex;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 10000;
+  justify-content: center;
+}
+
+.header .left-section,
+.header .right-section {
+  display: flex;
+  gap: 1rem;
+  padding: 0 3rem 0 3rem;
+}
+
+/* General Header Content CSS */
+
+.header .title-text {
+  font-weight: 600;
+  font-size: 2rem;
+  color: var(--color-white);
+}
+
+.header .button-login-signup {
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: var(--color-white);
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  box-sizing: border-box;
+  width: 150px;
+
+  transition: 0.15s;
+  background-color: transparent;
+  border: 1px solid var(--color-white);
+  border-radius: 10px;
+}
+
+.header .button-login-signup:hover {
+  cursor: pointer;
+  color: var(--color-orange);
+  background-color: var(--color-white);
+}
+
+@media (max-width: 840px) {
+  .header .left-section,
+  .header .right-section {
+    padding: 0;
+  }
+  .header .title-text {
+    display: none;
+  }
+}
+
+@media (max-width: 380px) {
+  .header .button-login-signup {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>The Game List</title>
+
+    <link rel="stylesheet" href="styles/profile-header.css" />
+    <link rel="stylesheet" href="styles/sidenav.css" />
+    <link rel="stylesheet" href="styles/gamelist.css" />
+
+    <link sizes="32x32" rel="icon" href="imgs/misc/web-logo.png" />
+
+    <script defer src="js/sidenav.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Profile Header -->
+    <header class="profile-header">
+      <!-- Search -->
+      <input
+        class="search-field"
+        type="search"
+        required
+        placeholder="&#x1F50E;&#xFE0E; Search"
+      />
+      <div class="right-section">
+        <!-- Games List -->
+        <div class="profile-header-icon-container game-list">
+          <a href="gamelist.html">
+            <img
+              class="profile-header-icon"
+              src="imgs/misc/list-icon.png"
+              alt=""
+            />
+          </a>
+        </div>
+        <!-- Notifications -->
+        <div class="profile-header-icon-container">
+          <img
+            class="profile-header-icon"
+            src="imgs/misc/notif-icon.png"
+            alt=""
+          />
+        </div>
+        <!-- Pfp -->
+        <div class="profile-header-icon-container">
+          <img class="profile-header-icon" src="imgs/misc/pfp.png" alt="" />
+        </div>
+      </div>
+    </header>
+    <!-- Side Navbar -->
+    <nav class="navbar">
+      <ul class="navbar-nav">
+        <!-- Logo -->
+        <li class="nav-item logo">
+          <a href="heropage.html">
+            <img class="navbar-icon" src="imgs/misc/logo.png" alt="" />
+          </a>
+        </li>
+        <!-- Games -->
+        <li class="nav-item">
+          <a href="profile.html">
+            <img class="navbar-icon" src="imgs/misc/navbar-games.png" alt="" />
+          </a>
+        </li>
+        <!-- Reviews -->
+        <li class="nav-item">
+          <a href="reviews.html">
+            <img
+              class="navbar-icon"
+              src="imgs/misc/navbar-reviews.png"
+              alt=""
+            />
+          </a>
+        </li>
+        <!-- News -->
+        <li class="nav-item">
+          <a href="news.html">
+            <img class="navbar-icon" src="imgs/misc/navbar-news.png" alt="" />
+          </a>
+        </li>
+        <!-- Navbar color -->
+        <div class="navbar-height"></div>
+      </ul>
+    </nav>
+
+    <div class="gamelist-navbar">
+      <!-- Nav Options -->
+      <ul class="gamelist-nav">
+        <li class="gamelist-item active">Already Played</li>
+        <li class="gamelist-item">Favourite games</li>
+        <li class="gamelist-item">Cozy Games</li>
+        <li class="gamelist-item">To be played</li>
+      </ul>
+      <!-- Images -->
+      <div>
+        <img
+          class="gamelist-icon is-hidden"
+          src="imgs/misc/icon-nexxt-section.png"
+          alt="Next Section Button"
+        />
+        <img
+          class="gamelist-icon"
+          src="imgs/misc/icon-new-section.png"
+          alt="New List Button"
+        />
+      </div>
+    </div>
+    <main id="main-content">
+      <section id="section-already-played">
+        <!-- Opening Section -->
+        <div class="already-played-opening">
+          <img
+            class="already-played-img"
+            src="imgs/misc-games/already-opening.jpg"
+            alt="Opening Image"
+          />
+          <div class="opening-overlay"></div>
+          <!-- Section Text -->
+          <div class="section-opening-container">
+            <div class="section-title">Already Played</div>
+            <div class="section-update">
+              Last updated: <span class="section-date">7 May 2023</span>
+            </div>
+          </div>
+        </div>
+        <!-- Filter Section -->
+        <div class="already-played-filter">
+          <div class="already-icon-container">
+            <img
+              class="filter-icon"
+              src="imgs/misc/icon-filter.png"
+              alt="Filter Button"
+            />
+          </div>
+        </div>
+        <!-- Card Section -->
+        <div class="already-played-cards">
+          <!-- Stray -->
+          <div class="card">
+            <!-- Game Picture -->
+            <div class="card-game-container">
+              <img
+                class="card-game-cover"
+                src="imgs/misc-games/game1.jpg"
+                alt="Game Cover"
+              />
+            </div>
+            <!-- Game Info -->
+            <div class="card-game-info-container">
+              <!-- Title + Studio -->
+              <div class="card-game-main-info-container">
+                <!-- Title -->
+                <div class="card-game-title">Stray</div>
+                <!-- Studio -->
+                <div class="card-game-studio">BlueTwelve</div>
+              </div>
+              <!-- Release -->
+              <div class="card-game-release">19 July 2022</div>
+            </div>
+            <!-- Settings Button -->
+            <div class="card-game-settings">
+              <img
+                class="settings-icon"
+                src="imgs/misc/icon-settings.png"
+                alt="Settings Button"
+              />
+            </div>
+          </div>
+          <!-- Hogwarts -->
+          <div class="card">
+            <!-- Game Picture -->
+            <div class="card-game-container">
+              <img
+                class="card-game-cover"
+                src="imgs/misc-games/game2.jpg"
+                alt="Game Cover"
+              />
+            </div>
+            <!-- Game Info -->
+            <div class="card-game-info-container">
+              <!-- Title + Studio -->
+              <div class="card-game-main-info-container">
+                <!-- Title -->
+                <div class="card-game-title">Hogwarts Legacy</div>
+                <!-- Studio -->
+                <div class="card-game-studio">Avalanche Software</div>
+              </div>
+              <!-- Release -->
+              <div class="card-game-release">7 Feb 2023</div>
+            </div>
+            <!-- Settings Button -->
+            <div class="card-game-settings">
+              <img
+                class="settings-icon"
+                src="imgs/misc/icon-settings.png"
+                alt="Settings Button"
+              />
+            </div>
+          </div>
+          <!-- Animal Crossing -->
+          <div class="card">
+            <!-- Game Picture -->
+            <div class="card-game-container">
+              <img
+                class="card-game-cover"
+                src="imgs/misc-games/game3.jpg"
+                alt="Game Cover"
+              />
+            </div>
+            <!-- Game Info -->
+            <div class="card-game-info-container">
+              <!-- Title + Studio -->
+              <div class="card-game-main-info-container">
+                <!-- Title -->
+                <div class="card-game-title">Animal Crossing</div>
+                <!-- Studio -->
+                <div class="card-game-studio">Nintendo</div>
+              </div>
+              <!-- Release -->
+              <div class="card-game-release">20 March 2020</div>
+            </div>
+            <!-- Settings Button -->
+            <div class="card-game-settings">
+              <img
+                class="settings-icon"
+                src="imgs/misc/icon-settings.png"
+                alt="Settings Button"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

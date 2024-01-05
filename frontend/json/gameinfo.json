@@ -1,0 +1,67 @@
+[
+  {
+    "gameImg" : "imgs/most-played/game1.jpg",
+    "gameName" : "Hogwarts Legacy",
+    "releaseDate" : "7 Feb 2023",
+    "gameRating" : "T (Teen 13+)",
+    "gameGenre" : "Action role-playing",
+    "gameDesc" : "The game, part of the Wizarding World franchise, takes place in the late 1800s, a century prior to the events chronicled in the Harry Potter novels. The player controls a student enrolled in the Hogwarts School of Witchcraft and Wizardry who learns to wield an array of magical abilities and objects. With the assistance of fellow students and professors, the protagonist embarks on a journey to unearth an ancient secret concealed within the wizarding world.",
+    "reviews" : [
+      "There is only a story mode, yay!", 
+      "Flying is a bit hard, but it is still good.", 
+      "Azkaban is only a corridor with no fighting?"
+    ]
+  },
+  {
+    "gameImg" : "imgs/most-played/game2.jpg",
+    "gameName" : "NieR: Automata",
+    "releaseDate" : "23 Feb 2017",
+    "gameRating" : "A (PEGI 18+)",
+    "gameGenre" : "Action role-playing",
+    "gameDesc" : "In Nier Automata, players enter a post-apocalyptic world on the verge of human extinction. Controlling androids called YoRHa units, they engage in intense combat against alien invaders using various weapons and abilities. The game blends action, RPG elements, and a gripping narrative, exploring themes of humanity and existence. As players unravel the mysteries of this desolate world, they forge alliances and make impactful choices that shape the story's outcome, leaving them with an unforgettable gaming experience.",
+    "reviews" : [
+      "Gripping story, intense combat, unforgettable.", 
+      "Some rough edges.", 
+      "Enjoyable but lacks depth and variety."
+    ]
+  },
+  {
+    "gameImg" : "imgs/most-played/game3.jpg",
+    "gameName": "Danganronpa V3",
+    "releaseDate": "26 Jan 2017",
+    "gameRating": "Mature (17+)",
+    "gameGenre": "Visual novel, Adventure",
+    "gameDesc": "Danganronpa V3: Killing Harmony is a visual novel and adventure game that follows a group of high school students trapped in a twisted killing game orchestrated by a mysterious bear named Monokuma. Players must investigate crime scenes, gather evidence, and participate in class trials to uncover the truth behind the murders. The game features a dark and thrilling narrative, complex characters, and mind-bending plot twists, providing an engaging experience for fans of mystery and suspense.",
+    "reviews": [
+      "Mind-blowing plot twists and engaging mysteries.",
+      "Characters are well-developed and intriguing.",
+      "Class trials offer challenging gameplay."
+    ]
+  },
+  {
+    "gameImg" : "imgs/most-played/game4.jpg",
+    "gameName": "The Legend of Zelda: Breath of the Wild",
+    "releaseDate": "3 Mar 2017",
+    "gameRating": "Everyone 10+",
+    "gameGenre": "Action-adventure",
+    "gameDesc": "In The Legend of Zelda: Breath of the Wild, players embark on an epic adventure in the kingdom of Hyrule. As the hero, Link, players must explore the vast open world, solve puzzles, battle enemies, and uncover the secrets of the ancient land. The game offers a seamless and immersive experience with dynamic weather, a physics-based gameplay system, and a wide variety of weapons, tools, and abilities. With its breathtaking visuals, expansive world, and captivating gameplay, Breath of the Wild sets a new standard for open-world exploration.",
+    "reviews": [
+      "A masterpiece that redefines open-world gaming.",
+      "Stunning visuals and immersive atmosphere.",
+      "Endless exploration and discovery."
+    ]
+  },
+  {
+    "gameImg" : "imgs/most-played/game5.jpg",
+    "gameName": "Fire Emblem: Three Houses",
+    "releaseDate": "26 Jul 2019",
+    "gameRating": "Teen (13+)",
+    "gameGenre": "Tactical role-playing",
+    "gameDesc": "Fire Emblem: Three Houses is a tactical role-playing game set in the fantasy land of Fódlan. Players assume the role of a professor at the prestigious Officers Academy, where they must choose one of three noble houses to lead and guide their students in battle. The game combines strategic turn-based combat with deep social and character interactions. Players make crucial decisions, forge relationships, and navigate political intrigue that impacts the fate of their students and the world. With its engaging story, rich characters, and strategic gameplay, Fire Emblem: Three Houses offers an immersive and rewarding experience for fans of the genre.",
+    "reviews": [
+      "Compelling story with multiple branching paths.",
+      "Deep and meaningful character relationships.",
+      "Some performance issues on the Nintendo Switch."
+    ]
+  }
+]
