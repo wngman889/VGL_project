@@ -12,9 +12,9 @@ sections.forEach((section,index) =>{
   const arrowleft = section.querySelector(".arrow-button--left")
   let carouselScrollPos = carousel.scrollLeft;
 
-  // Define the URL of the icon image
-  const iconAddImageUrl = '../misc/icon-game-add.png';
-  const iconRemoveImageUrl = '../misc/icon-game-remove.png';
+  // // Define the URL of the icon image
+  // const iconAddImageUrl = '../misc/icon-game-add.png';
+  // const iconRemoveImageUrl = '../misc/icon-game-remove.png';
 
   // Arrow Scrolling 
   arrowright.addEventListener("click", () => {
@@ -32,13 +32,13 @@ sections.forEach((section,index) =>{
       card.style.transform = "scale(1.1)";
       card.style.transition = "0.3s ease";
       addMask(card);
-      iconImage.style.opacity = '1';
+      // iconImage.style.opacity = '1';
     });
   
     card.addEventListener("mouseleave", () => {
       card.style.transform = "scale(1)";
       removeMask(card);
-      iconImage.style.opacity = '0';
+      // iconImage.style.opacity = '0';
     });
 
       // Create a mask element for each card
@@ -48,42 +48,42 @@ sections.forEach((section,index) =>{
       // Append the mask element to the card
       card.appendChild(maskElement);
 
-      // Create the icon image element
-      const iconImage = document.createElement('img');
-      iconImage.src = iconAddImageUrl;
-      iconImage.classList.add('card-icon');
+      // // Create the icon image element
+      // const iconImage = document.createElement('img');
+      // iconImage.src = iconAddImageUrl;
+      // iconImage.classList.add('card-icon');
   
-      // Append the icon image element to the card
-      card.appendChild(iconImage);
+      // // Append the icon image element to the card
+      // card.appendChild(iconImage);
 
-      // Add click event handler for the icon image
-      iconImage.addEventListener('click', () => {
-      const popup = document.createElement('div');
+      // // Add click event handler for the icon image
+      // iconImage.addEventListener('click', () => {
+      // const popup = document.createElement('div');
 
-      // Extract the relative image path
-      const splitParts = iconImage.src.split('/'); // Split the URL by '/'
-      const relativeImagePath = splitParts.slice(-3).join('/'); // Extract the last 3 parts and join them back with '/'
+      // // Extract the relative image path
+      // const splitParts = iconImage.src.split('/'); // Split the URL by '/'
+      // const relativeImagePath = splitParts.slice(-3).join('/'); // Extract the last 3 parts and join them back with '/'
 
-       // If the item hasn't been added yet
-      if(relativeImagePath === iconAddImageUrl){
-        popup.textContent = 'Game added';
-        popup.className = 'popup-added';
-        iconImage.src = iconRemoveImageUrl;
-      } // If the item has been added
-      else{
-        popup.textContent = 'Game removed';
-        popup.className = 'popup-removed';
-        iconImage.src = iconAddImageUrl;
-      }
+      //  // If the item hasn't been added yet
+      // if(relativeImagePath === iconAddImageUrl){
+      //   popup.textContent = 'Game added';
+      //   popup.className = 'popup-added';
+      //   iconImage.src = iconRemoveImageUrl;
+      // } // If the item has been added
+      // else{
+      //   popup.textContent = 'Game removed';
+      //   popup.className = 'popup-removed';
+      //   iconImage.src = iconAddImageUrl;
+      // }
 
-      // Append the popup element to the card
-      card.appendChild(popup);
+      // // Append the popup element to the card
+      // card.appendChild(popup);
 
-      // Remove the popup after a second
-      setTimeout(() => {
-        card.removeChild(popup);
-      }, 1000);
-  });
+      // // Remove the popup after a second
+      // setTimeout(() => {
+      //   card.removeChild(popup);
+      // }, 1000);
+  // });
   })
 
 })
