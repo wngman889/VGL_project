@@ -1,31 +1,11 @@
 // Combination Carousel
 const sections = document.querySelectorAll("section");
-let modalcontainer = document.getElementsByClassName("modal-container");
-modalcontainer = modalcontainer[0]
-const modal = modalcontainer.querySelector("#game-modal");
 const maincontent = document.getElementById("main-content");
 sections.forEach((section,index) =>{
 
   // Skipping the first Carousel for Most Played
-  if(index === 0){
-    const cards = section.getElementsByClassName("slide");
-    // Exit Icon Event
-      modal.getElementsByClassName("modal-exit")[0].addEventListener("click", () =>{
-      document.getElementsByTagName("body")[0].classList.remove("overflow-hidden");
-      modalcontainer.style.display = "none";
-    })
+  if(index === 0) return;
 
-    // Card Cycling
-    for (let index = 0; index < cards.length; index++) {
-      cards[index].addEventListener("click",() =>{
-        showModal(cards[index], index)
-        // modal.style.top = window.pageYOffset + 30 + 'px';
-        modalcontainer.style.top = window.pageYOffset + 'px';
-      })
-    }
-
-    return;
-  }
   const carousel = section.querySelector("ul");
   const cards = carousel.querySelectorAll(".card");
   const arrowright = section.querySelector(".arrow-button--right")
@@ -33,8 +13,8 @@ sections.forEach((section,index) =>{
   let carouselScrollPos = carousel.scrollLeft;
 
   // Define the URL of the icon image
-  const iconAddImageUrl = 'imgs/misc/icon-game-add.png';
-  const iconRemoveImageUrl = 'imgs/misc/icon-game-remove.png';
+  const iconAddImageUrl = '../misc/icon-game-add.png';
+  const iconRemoveImageUrl = '../misc/icon-game-remove.png';
 
   // Arrow Scrolling 
   arrowright.addEventListener("click", () => {
@@ -108,54 +88,6 @@ sections.forEach((section,index) =>{
 
 })
 
-let gameinfo;
-// JSON info fetching
-fetch('json/gameinfo.json')
-  .then(response => response.json())
-  .then(data => {
-    gameinfo = data;
-  })
-
-// Modal Changing
-function showModal(card, index) {
-  let gamedata = gameinfo[index]
-
-  // Img Change
-  modal.getElementsByClassName("modal-img")[0].src = gamedata.gameImg;
-
-  // Entry Info Container
-  let maincontainer = modal.getElementsByClassName("modal-main-container")[0]
-
-  // Name Change
-  maincontainer.getElementsByClassName("modal-name")[0].innerHTML = gamedata.gameName;
-
-  // Release Change
-  maincontainer.getElementsByClassName("modal-release")[0].innerHTML = gamedata.releaseDate;
-
-  // Rating Change
-  maincontainer.getElementsByClassName("modal-rating")[0].innerHTML = gamedata.gameRating;
-
-  // Genre Changing
-  maincontainer.getElementsByClassName("game-genre")[0].innerHTML = gamedata.gameGenre;
-
-  // Desc Info Container
-  modal.getElementsByClassName("modal-desc")[0].innerHTML = gamedata.gameDesc;
-
-  // Reviews Container
-  maincontainer = modal.getElementsByClassName("modal-reviews-container")[0].getElementsByClassName("modal-reviews")[0].getElementsByClassName("modal-review");
-
-  // Review Changing
-  for (let index = 0; index < maincontainer.length; index++) {
-    console.log(gamedata.reviews[index])
-    maincontainer[index].getElementsByClassName("modal-reviewer-comment")[0].innerHTML = gamedata.reviews[index];
-  }
-
-
-  // Final Code
-  document.getElementsByTagName("body")[0].classList.add("overflow-hidden");
-  modalcontainer.style.display = "flex";
-}
-
 // Function to add the mask effect
 function addMask(card) {
   const maskElement = card.querySelector('.card-mask');
@@ -189,15 +121,5 @@ function checkScrollLimits(carousel, leftArrow, rightArrow, scrollLeftPos) {
     rightArrow.style.display = "none";
   }
 }
-
-// Most Played Games Interval
-let counter = 1;
-setInterval(function(){
-  document.getElementById('radio' + counter).checked = true;
-  counter++;
-  if(counter > 5){
-    counter = 1;
-  }
-}, 5000);
 
 
