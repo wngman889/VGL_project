@@ -13,7 +13,8 @@
 
     <link sizes="32x32" rel="icon" href="../public/misc/web-logo.png" />
 
-    <script defer src="../js/carousel.js"></script>
+    <script defer src="../js/profilepage/mostplayed.js"></script>
+    <script defer src="../js/profilepage/carousel.js"></script>
     <script defer src="../js/sidenav.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -107,7 +108,7 @@
     </nav>
 
     <!-- Game Modal -->
-    <div class="modal-container">
+    <div id="modal-container" class="modal-container">
       <div id="game-modal" class="card-modal">
         <!-- Modal Img -->
         <div class="modal-img-container">
@@ -381,94 +382,19 @@
 
     <!-- Main Content -->
     <main id="main-content">
-      <!-- Most Played Games -->
       <section id="section-most-played">
-        <!-- Section Title -->
         <div class="section-title page-padding--top--bot">
           Most Played Games
         </div>
-
-        <!-- Img Slider -->
         <div class="slider-container">
           <div class="slider">
-            <div class="slides">
+            <div class="slides" id="gameSlider">
               <!-- Radio Buttons -->
               <input type="radio" name="radio-btn" id="radio1" />
               <input type="radio" name="radio-btn" id="radio2" />
               <input type="radio" name="radio-btn" id="radio3" />
               <input type="radio" name="radio-btn" id="radio4" />
               <input type="radio" name="radio-btn" id="radio5" />
-
-              <!-- Slides -->
-              <div class="slide first">
-                <img
-                  class="slide-img"
-                  src="../public/most-played/game1.jpg"
-                  alt="Hogwarts Legacy"
-                />
-                <div class="slide-overlay">
-                  <div class="slide-info">
-                    <div class="slide-title">Hogwarts Legacy</div>
-                    <div class="slide-dev">Avalanche Software</div>
-                  </div>
-                </div>
-              </div>
-              <div class="slide">
-                <img
-                  class="slide-img"
-                  src="../public/most-played/game2.jpg"
-                  alt="NieR: Automata"
-                />
-
-                <div class="slide-overlay">
-                  <div class="slide-info">
-                    <div class="slide-title">NieR: Automata</div>
-                    <div class="slide-dev">Square Enix</div>
-                  </div>
-                </div>
-              </div>
-              <div class="slide">
-                <img
-                  class="slide-img"
-                  src="../public/most-played/game3.jpg"
-                  alt="Danganronpa V3"
-                />
-                <div class="slide-overlay">
-                  <div class="slide-info">
-                    <div class="slide-title">Danganronpa V3</div>
-                    <div class="slide-dev">Spike Chunsoft</div>
-                  </div>
-                </div>
-              </div>
-              <div class="slide">
-                <img
-                  class="slide-img"
-                  src="../public/most-played/game4.jpg"
-                  alt="The Legend of Zelda: Breath of the Wild"
-                />
-                <div class="slide-overlay">
-                  <div class="slide-info">
-                    <div class="slide-title">
-                      The Legend of Zelda: Breath of the Wild
-                    </div>
-                    <div class="slide-dev">Nintendo</div>
-                  </div>
-                </div>
-              </div>
-              <div class="slide">
-                <img
-                  class="slide-img"
-                  src="../public/most-played/game5.jpg"
-                  alt="Fire Emblem: Three Houses"
-                />
-                <div class="slide-overlay">
-                  <div class="slide-info">
-                    <div class="slide-title">Fire Emblem: Three Houses</div>
-                    <div class="slide-dev">Nintendo</div>
-                  </div>
-                </div>
-              </div>
-
               <!-- Auto Nav Buttons -->
               <div class="navigation-auto">
                 <div class="auto-btn1"></div>
@@ -478,7 +404,6 @@
                 <div class="auto-btn5"></div>
               </div>
             </div>
-
             <!-- Nav Buttons -->
             <div class="navigation-manual">
               <label for="radio1" class="manual-btn"></label>
