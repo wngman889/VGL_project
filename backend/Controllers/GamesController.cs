@@ -173,34 +173,41 @@ namespace VGL_Project.Controllers
             return Ok(app);
         }
 
-        [HttpPost("get-gamenews-for-random-game")]
+        [HttpPost("get-news-for-random-games")]
         public async Task<IActionResult> GetNewsGameByID([FromBody] NewsDTO news)
         {
             var webInterfaceFactory = new SteamWebInterfaceFactory(Constants.API_KEY);
             var steamInterfacePlayer = webInterfaceFactory.CreateSteamWebInterface<PlayerService>(new HttpClient());
 
             // Fetch user's owned games
-            var ownedGamesResponse = await steamInterfacePlayer.GetOwnedGamesAsync(ulong.Parse(news.SteamId), false, false);
+            var ownedGamesResponse = await steamInterfacePlayer.GetOwnedGamesAsync(ulong.Parse(news.SteamId), true, false);
 
-            if (ownedGamesResponse == null || ownedGamesResponse.Data == null || !ownedGamesResponse.Data.OwnedGames.Any())
-                return NotFound("No owned games found for the user.");
+            if (ownedGamesResponse == null || ownedGamesResponse.Data == null || !ownedGamesResponse.Data.OwnedGames.Any()) return NotFound("No owned games found for the user.");
 
-            // Get a random game from the owned games
-            var randomGame = ownedGamesResponse.Data.OwnedGames.OrderBy(g => Guid.NewGuid()).FirstOrDefault();
+            var randomGames = ownedGamesResponse.Data.OwnedGames.OrderBy(g => Guid.NewGuid()).Take(news.MaxCount).ToList();
 
-            if (randomGame == null)
-                return NotFound("No random game found.");
+            if (randomGames == null || !randomGames.Any()) return NotFound("No random games found.");
 
-            var appID = randomGame.AppId;
+            var newsList = new List<NewsEndpointResponse>();
 
-            // Fetch news for the random game
             var steamInterfaceNews = webInterfaceFactory.CreateSteamWebInterface<SteamNews>(new HttpClient());
-            var response = await steamInterfaceNews.GetNewsForAppAsync(appID,default,default,(uint)news.MaxCount);
+            foreach (var randomGame in randomGames)
+            {
+                var appID = randomGame.AppId;
+                var response = await steamInterfaceNews.GetNewsForAppAsync(appID, default, default, 1);
 
-            if (response == null)
-                return NotFound("No news found for the game.");
+                if (response != null && response.Data != null && response.Data.NewsItems.Any())
+                {
+                    var firstNews = response.Data.NewsItems.First();
 
-            return Ok(response.Data);
+                    newsList.Add(new NewsEndpointResponse() { Author = firstNews.Author,Contents = firstNews.Contents, GameName = randomGame.Name, Title = firstNews.Title, AppId = randomGame.AppId.ToString()});
+                }
+            }
+
+            if (!newsList.Any())
+                return NotFound("No news found for the selected games.");
+
+            return Ok(newsList);
         }
         [HttpPost("get-app-details")]
         public async Task<IActionResult> GetGameDetails(int id)
