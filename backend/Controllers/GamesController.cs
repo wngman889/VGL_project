@@ -7,6 +7,7 @@ using VGL_Project.Models.Interfaces;
 using VGL_Project.Models.DTO;
 using System.Linq;
 using Newtonsoft.Json;
+using VGL_Project.Models;
 
 namespace VGL_Project.Controllers
 {
@@ -54,7 +55,7 @@ namespace VGL_Project.Controllers
             .Take(mostPlayed.Count)
             .ToList();
 
-            var gameDetailsList = new List<object>();
+            var gameDetailsList = new List<GameDetailsResponseDTO>();
 
             foreach (var game in mostPlayedGames)
             {
@@ -62,11 +63,25 @@ namespace VGL_Project.Controllers
 
                 if (gameDetailsResponse is OkObjectResult okResult)
                 {
-                    gameDetailsList.Add(okResult.Value);
+                    if(okResult.Value is GameDetailsResponseDTO gameDetails) gameDetailsList.Add(gameDetails);
                 }
             }
 
             return Ok(gameDetailsList);
+        }
+
+        [HttpPost("get-most-recommended-owned-games")]
+        public async Task<IActionResult> GetMostRecommended([FromBody] MostPlayedGamesDTO mostPlayed)
+        {
+            var initalCount = mostPlayed.Count;
+            mostPlayed.Count *= 3;
+            var gameDetailsResponse = await GetMostPlayed(mostPlayed);
+
+            if (gameDetailsResponse is not OkObjectResult okResult) return NotFound("Error in Recommended");
+
+            if (okResult.Value is not List<GameDetailsResponseDTO> gamedetails) return NotFound("Error in Recommended");
+
+            return Ok(gamedetails.OrderByDescending(x => x.Recommendations).Take(initalCount));
         }
         [HttpPost("get-random-gems-owned-games")]
         public async Task<IActionResult> GetRandomGems([FromBody] MostPlayedGamesDTO mostPlayed)
@@ -97,6 +112,48 @@ namespace VGL_Project.Controllers
                     gameDetailsList.Add(okResult.Value);
                 }
             }
+
+            return Ok(gameDetailsList);
+        }
+        [HttpPost("get-random-free-owned-games")]
+        public async Task<IActionResult> GetRandomFree([FromBody] MostPlayedGamesDTO mostPlayed)
+        {
+            var webInterfaceFactory = new SteamWebInterfaceFactory(Constants.API_KEY);
+            var steamInterface = webInterfaceFactory.CreateSteamWebInterface<PlayerService>(new HttpClient());
+
+            var ownedGamesResponse = await steamInterface.GetOwnedGamesAsync(ulong.Parse(mostPlayed.SteamId), false, true);
+
+            if (ownedGamesResponse == null) return NotFound();
+
+            var ownedGames = ownedGamesResponse.Data.OwnedGames.ToList();
+
+            var random = new Random();
+            var shuffledGames = ownedGames.OrderBy(x => random.Next()).ToList();
+
+
+            var gameDetailsList = new List<object>();
+
+            foreach (var game in shuffledGames)
+            {
+                var gameDetailsResponse = await GetGameDetails((int)game.AppId);
+
+                if (gameDetailsResponse is OkObjectResult okResult)
+                {
+                    if(okResult.Value is GameDetailsResponseDTO gameDetails)
+                    {
+                        if (gameDetails.IsFree)
+                        {
+                            gameDetailsList.Add(okResult.Value);
+
+                            if (gameDetailsList.Count == mostPlayed.Count)
+                            {
+                                break;
+                            }
+                        }
+                    }
+                }
+            }
+
 
             return Ok(gameDetailsList);
         }
@@ -163,13 +220,15 @@ namespace VGL_Project.Controllers
                     if (gameDetails.TryGetValue(id.ToString(), out var details) && details.Success)
                     {
                         var data = details.Data;
-                        var result = new
+                        var result = new GameDetailsResponseDTO
                         {
                             AppId = data.AppId,
                             Name = data.Name,
-                            Developer = data.Developers[0],
+                            Developer = data.Developers?[0],
                             Genre = data.Genres?.FirstOrDefault()?.Description,
                             ReleaseDate = data.ReleaseDate.Date.ToShortDateString(),
+                            Recommendations = data.Recommendations?.TotalRecommendations,
+                            IsFree = data.IsFree,
                             Description = details.Data.SanitizedDetailedDescription
                         };
 
@@ -187,6 +246,7 @@ namespace VGL_Project.Controllers
             }
         }
 
+        
         [HttpGet("get-game-by-id")]
         public async Task<IActionResult> GetGame(int id)
         {
