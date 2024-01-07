@@ -140,6 +140,7 @@ form.addEventListener("submit", async function (event) {
       });
 
       localStorage.setItem("SteamId",response.data.steamId);
+      window.location.href = 'profile.html';
 
       console.log("Response:", response.data);
     } catch (error) {
@@ -153,6 +154,7 @@ form.addEventListener("submit", async function (event) {
       });
       
       localStorage.setItem("SteamId",response.data.steamId);
+      window.location.href = 'profile.html';
 
       console.log("Response:", response.data.steamId);
     } catch (error) {
