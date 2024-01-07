@@ -30,7 +30,8 @@ function generateGameCards(data) {
     gameImg.alt = game.name;
 
     gameImg.onerror = () => {
-      gameImg.src = "../misc/game-not-available-gem.png";
+      gameImg.src = `https://cdn.cloudflare.steamstatic.com/steam/apps/${game.appId}/header.jpg`;
+      // gameImg.src = "../misc/game-not-available-gem.png";
     };
 
     const gameInfo = document.createElement("div");
