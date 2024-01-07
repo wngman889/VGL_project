@@ -253,7 +253,7 @@
 .modal-more-cards .card-game-img {
   width: 45%;
   height: 100%;
-  object-fit: cover;
+  /* object-fit: cover; */
   object-position: top;
 
   border-radius: 10px;
@@ -400,7 +400,6 @@
 .top-games-carousel .card-game-img {
   width: 45%;
   height: 100%;
-  object-fit: cover;
   object-position: top;
 
   border-radius: 10px;
@@ -409,7 +408,8 @@
 }
 /* Card Modal */
 .modal-container {
-  position: absolute;
+  z-index: 100000;
+  position: fixed;
   display: none;
   justify-content: center;
   align-items: center;
@@ -417,7 +417,7 @@
   left: 0;
   right: 0;
   height: 100%;
-  background: rgba(29, 29, 31, 0.7);
+  background: rgba(29, 29, 31, 0.95);
 
   /* Hide scrollbar for IE, Edge and Firefox */
   -ms-overflow-style: none; /* IE and Edge */
@@ -433,8 +433,9 @@
   flex-direction: column;
   gap: 3rem;
   background-color: var(--color-black);
-  width: 95%;
-  height: 100%;
+  width: 85%;
+  height: 95%;
+  border-radius: 32px;
 }
 
 .modal-img {
@@ -530,7 +531,7 @@
   font-weight: 400;
   font-size: 1.5rem;
 
-  padding: 0 5rem 0 5rem;
+  padding: 0 5rem 5rem 5rem;
 }
 .modal-reviews-container {
   display: flex;

@@ -13,7 +13,20 @@
 
     <link sizes="32x32" rel="icon" href="../public/misc/web-logo.png" />
 
-    <script defer src="../js/carousel.js"></script>
+    <script type="module" defer src="../js/profilepage/mostplayed.js"></script>
+
+    <script type="module" defer src="../js/profilepage/randomgems.js"></script>
+
+    <script type="module" defer src="../js/profilepage/freegames.js"></script>
+
+    <script
+      type="module"
+      defer
+      src="../js/profilepage/recommendations.js"
+    ></script>
+
+    <script defer src="../js/profilepage/carousel.js"></script>
+
     <script defer src="../js/sidenav.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -26,13 +39,7 @@
   <body>
     <!-- Profile Header -->
     <header class="profile-header">
-      <!-- Search -->
-      <input
-        class="search-field"
-        type="search"
-        required
-        placeholder="&#x1F50E;&#xFE0E; Search"
-      />
+      <div></div>
       <div class="right-section">
         <!-- Games List -->
         <div class="profile-header-icon-container game-list">
@@ -43,14 +50,6 @@
               alt=""
             />
           </a>
-        </div>
-        <!-- Notifications -->
-        <div class="profile-header-icon-container">
-          <img
-            class="profile-header-icon"
-            src="../public/misc/notif-icon.png"
-            alt=""
-          />
         </div>
         <!-- Pfp -->
         <div class="profile-header-icon-container">
@@ -107,7 +106,7 @@
     </nav>
 
     <!-- Game Modal -->
-    <div class="modal-container">
+    <div id="modal-container" class="modal-container">
       <div id="game-modal" class="card-modal">
         <!-- Modal Img -->
         <div class="modal-img-container">
@@ -164,311 +163,24 @@
           and professors, the protagonist embarks on a journey to unearth an
           ancient secret concealed within the wizarding world.
         </div>
-        <!-- Modal Reviews -->
-        <div class="modal-reviews-container">
-          <!-- Title + See More -->
-          <div class="title-container">
-            <div class="modal-title">Reviews</div>
-            <div class="modal-see-more">See More</div>
-          </div>
-
-          <div class="modal-reviews">
-            <!-- 5 Star Review -->
-            <div class="modal-review">
-              <!-- Reviewer Pfp -->
-              <img
-                class="modal-reviewer-pfp"
-                src="../public/misc/modal-reviewer1.png"
-                alt="Reviewer Profile Picture"
-              />
-              <!-- Reviewer Name -->
-              <div class="modal-reviewer-name">Lovelyzz</div>
-              <!-- Reviewer Rating -->
-              <div class="modal-reviewer-rating">
-                <img
-                  class="modal-star"
-                  src="../public/misc/reviewer-full-star.png"
-                  alt="Star"
-                />
-                <img
-                  class="modal-star"
-                  src="../public/misc/reviewer-full-star.png"
-                  alt="Star"
-                />
-                <img
-                  class="modal-star"
-                  src="../public/misc/reviewer-full-star.png"
-                  alt="Star"
-                />
-                <img
-                  class="modal-star"
-                  src="../public/misc/reviewer-full-star.png"
-                  alt="Star"
-                />
-                <img
-                  class="modal-star"
-                  src="../public/misc/reviewer-full-star.png"
-                  alt="Star"
-                />
-              </div>
-              <!-- Reviewer Comment -->
-              <div class="modal-reviewer-comment">
-                There is only story mode, yay!
-              </div>
-            </div>
-            <!-- 4 Star Review -->
-            <div class="modal-review">
-              <!-- Reviewer Pfp -->
-              <img
-                class="modal-reviewer-pfp"
-                src="../public/misc/modal-reviewer2.png"
-                alt="Reviewer Profile Picture"
-              />
-              <!-- Reviewer Name -->
-              <div class="modal-reviewer-name">Minemes63</div>
-              <!-- Reviewer Rating -->
-              <div class="modal-reviewer-rating">
-                <img
-                  class="modal-star"
-                  src="../public/misc/reviewer-full-star.png"
-                  alt="Star"
-                />
-                <img
-                  class="modal-star"
-                  src="../public/misc/reviewer-full-star.png"
-                  alt="Star"
-                />
-                <img
-                  class="modal-star"
-                  src="../public/misc/reviewer-full-star.png"
-                  alt="Star"
-                />
-                <img
-                  class="modal-star"
-                  src="../public/misc/reviewer-full-star.png"
-                  alt="Star"
-                />
-                <img
-                  class="modal-star"
-                  src="../public/misc/reviewer-empty-star.png"
-                  alt="Star"
-                />
-              </div>
-              <!-- Reviewer Comment -->
-              <div class="modal-reviewer-comment">
-                Flying is a bit hard, but it is still good.
-              </div>
-            </div>
-            <!-- 3 Star Review -->
-            <div class="modal-review">
-              <!-- Reviewer Pfp -->
-              <img
-                class="modal-reviewer-pfp"
-                src="../public/misc/modal-reviewer3.png"
-                alt="Reviewer Profile Picture"
-              />
-              <!-- Reviewer Name -->
-              <div class="modal-reviewer-name">JettMain</div>
-              <!-- Reviewer Rating -->
-              <div class="modal-reviewer-rating">
-                <img
-                  class="modal-star"
-                  src="../public/misc/reviewer-full-star.png"
-                  alt="Star"
-                />
-                <img
-                  class="modal-star"
-                  src="../public/misc/reviewer-full-star.png"
-                  alt="Star"
-                />
-                <img
-                  class="modal-star"
-                  src="../public/misc/reviewer-full-star.png"
-                  alt="Star"
-                />
-                <img
-                  class="modal-star"
-                  src="../public/misc/reviewer-empty-star.png"
-                  alt="Star"
-                />
-                <img
-                  class="modal-star"
-                  src="../public/misc/reviewer-empty-star.png"
-                  alt="Star"
-                />
-              </div>
-              <!-- Reviewer Comment -->
-              <div class="modal-reviewer-comment">
-                Azkaban is only a corridor with no fighting?
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- More Like this -->
-        <div class="modal-more-container">
-          <!-- Title + See More -->
-          <div class="title-container">
-            <div class="modal-title">More like this</div>
-            <div class="modal-see-more">See More</div>
-          </div>
-          <div class="modal-more-cards">
-            <!-- RE 4 -->
-            <div class="card">
-              <!-- Game Img -->
-              <img
-                class="card-game-img"
-                src="../public/spring2023/game1.jpg"
-                alt="Game Picture"
-              />
-              <!-- Game Info -->
-              <div class="card-game-info">
-                <div class="card-game-combinedinfo">
-                  <!-- Game Title -->
-                  <div class="card-game-title">Resident Evil 4 Remake</div>
-                  <!-- Game Studio -->
-                  <div class="card-game-studio">Capcom</div>
-                </div>
-                <!-- Game Release -->
-                <div class="card-game-release">24 March 2023</div>
-              </div>
-            </div>
-            <!-- Zelda -->
-            <div class="card">
-              <!-- Game Img -->
-              <img
-                class="card-game-img"
-                src="../public/spring2023/game5.jpg"
-                alt="Game Picture"
-              />
-              <!-- Game Info -->
-              <div class="card-game-info">
-                <div class="card-game-combinedinfo">
-                  <!-- Game Title -->
-                  <div class="card-game-title">
-                    The Legend of Zelda: Tears of the Kingdom
-                  </div>
-                  <!-- Game Studio -->
-                  <div class="card-game-studio">Nintendo</div>
-                </div>
-                <!-- Game Release -->
-                <div class="card-game-release">12 May 2023</div>
-              </div>
-            </div>
-            <!-- The Last of Us Part 1 -->
-            <li class="card">
-              <!-- Game Img -->
-              <img
-                class="card-game-img"
-                src="../public/spring2023/game6.jpg"
-                alt="Game Picture"
-              />
-              <!-- Game Info -->
-              <div class="card-game-info">
-                <div class="card-game-combinedinfo">
-                  <!-- Game Title -->
-                  <div class="card-game-title">The Last of Us Part 1</div>
-                  <!-- Game Studio -->
-                  <div class="card-game-studio">Naughty Dog</div>
-                </div>
-                <!-- Game Release -->
-                <div class="card-game-release">28 March 2023</div>
-              </div>
-            </li>
-          </div>
-        </div>
       </div>
     </div>
 
     <!-- Main Content -->
     <main id="main-content">
-      <!-- Most Played Games -->
       <section id="section-most-played">
-        <!-- Section Title -->
         <div class="section-title page-padding--top--bot">
           Most Played Games
         </div>
-
-        <!-- Img Slider -->
         <div class="slider-container">
           <div class="slider">
-            <div class="slides">
+            <div class="slides" id="gameSlider">
               <!-- Radio Buttons -->
-              <input type="radio" name="radio-btn" id="radio1" />
+              <input checked="true" type="radio" name="radio-btn" id="radio1" />
               <input type="radio" name="radio-btn" id="radio2" />
               <input type="radio" name="radio-btn" id="radio3" />
               <input type="radio" name="radio-btn" id="radio4" />
               <input type="radio" name="radio-btn" id="radio5" />
-
-              <!-- Slides -->
-              <div class="slide first">
-                <img
-                  class="slide-img"
-                  src="../public/most-played/game1.jpg"
-                  alt="Hogwarts Legacy"
-                />
-                <div class="slide-overlay">
-                  <div class="slide-info">
-                    <div class="slide-title">Hogwarts Legacy</div>
-                    <div class="slide-dev">Avalanche Software</div>
-                  </div>
-                </div>
-              </div>
-              <div class="slide">
-                <img
-                  class="slide-img"
-                  src="../public/most-played/game2.jpg"
-                  alt="NieR: Automata"
-                />
-
-                <div class="slide-overlay">
-                  <div class="slide-info">
-                    <div class="slide-title">NieR: Automata</div>
-                    <div class="slide-dev">Square Enix</div>
-                  </div>
-                </div>
-              </div>
-              <div class="slide">
-                <img
-                  class="slide-img"
-                  src="../public/most-played/game3.jpg"
-                  alt="Danganronpa V3"
-                />
-                <div class="slide-overlay">
-                  <div class="slide-info">
-                    <div class="slide-title">Danganronpa V3</div>
-                    <div class="slide-dev">Spike Chunsoft</div>
-                  </div>
-                </div>
-              </div>
-              <div class="slide">
-                <img
-                  class="slide-img"
-                  src="../public/most-played/game4.jpg"
-                  alt="The Legend of Zelda: Breath of the Wild"
-                />
-                <div class="slide-overlay">
-                  <div class="slide-info">
-                    <div class="slide-title">
-                      The Legend of Zelda: Breath of the Wild
-                    </div>
-                    <div class="slide-dev">Nintendo</div>
-                  </div>
-                </div>
-              </div>
-              <div class="slide">
-                <img
-                  class="slide-img"
-                  src="../public/most-played/game5.jpg"
-                  alt="Fire Emblem: Three Houses"
-                />
-                <div class="slide-overlay">
-                  <div class="slide-info">
-                    <div class="slide-title">Fire Emblem: Three Houses</div>
-                    <div class="slide-dev">Nintendo</div>
-                  </div>
-                </div>
-              </div>
-
               <!-- Auto Nav Buttons -->
               <div class="navigation-auto">
                 <div class="auto-btn1"></div>
@@ -478,7 +190,6 @@
                 <div class="auto-btn5"></div>
               </div>
             </div>
-
             <!-- Nav Buttons -->
             <div class="navigation-manual">
               <label for="radio1" class="manual-btn"></label>
@@ -491,370 +202,35 @@
         </div>
       </section>
 
-      <!-- Spring 2023 Releases -->
+      <!-- Random Gems -->
       <section id="section-spring-releases">
         <!-- Section Title -->
-        <div class="section-title page-padding--left--top">
-          Spring 2023 Releases
-        </div>
+        <div class="section-title page-padding--left--top">Random Gems</div>
         <!-- Arrow Left -->
         <button class="arrow-button arrow-button--left">
           <div class="arrow-left"></div>
         </button>
         <!-- Media Carousel -->
-        <ul class="spring-game-carousel page-padding--left--top--bot">
-          <!-- RE 4 -->
-          <li class="card">
-            <!-- Game Img -->
-            <img
-              class="card-game-img"
-              src="../public/spring2023/game1.jpg"
-              alt="Game Picture"
-            />
-            <!-- Game Info -->
-            <div class="card-game-info">
-              <div class="card-game-combinedinfo">
-                <!-- Game Title -->
-                <div class="card-game-title">Resident Evil 4 Remake</div>
-                <!-- Game Studio -->
-                <div class="card-game-studio">Capcom</div>
-              </div>
-              <!-- Game Release -->
-              <div class="card-game-release">24 March 2023</div>
-            </div>
-          </li>
-          <!-- Dead Island 2 -->
-          <li class="card">
-            <!-- Game Img -->
-            <img
-              class="card-game-img"
-              src="../public/spring2023/game2.jpg"
-              alt="Game Picture"
-            />
-            <!-- Game Info -->
-            <div class="card-game-info">
-              <div class="card-game-combinedinfo">
-                <!-- Game Title -->
-                <div class="card-game-title">Dead Island 2</div>
-                <!-- Game Studio -->
-                <div class="card-game-studio">Dambuster</div>
-              </div>
-              <!-- Game Release -->
-              <div class="card-game-release">21 April 2023</div>
-            </div>
-          </li>
-          <!-- Star Wars -->
-          <li class="card">
-            <!-- Game Img -->
-            <img
-              class="card-game-img"
-              src="../public/spring2023/game3.png"
-              alt="Game Picture"
-            />
-            <!-- Game Info -->
-            <div class="card-game-info">
-              <div class="card-game-combinedinfo">
-                <!-- Game Title -->
-                <div class="card-game-title">Star Wars Jedi: Survivor</div>
-                <!-- Game Studio -->
-                <div class="card-game-studio">Respawn</div>
-              </div>
-              <!-- Game Release -->
-              <div class="card-game-release">28 April 2023</div>
-            </div>
-          </li>
-          <!-- RedFall -->
-          <li class="card">
-            <!-- Game Img -->
-            <img
-              class="card-game-img"
-              src="../public/spring2023/game4.png"
-              alt="Game Picture"
-            />
-            <!-- Game Info -->
-            <div class="card-game-info">
-              <div class="card-game-combinedinfo">
-                <!-- Game Title -->
-                <div class="card-game-title">RedFall</div>
-                <!-- Game Studio -->
-                <div class="card-game-studio">Arkane Studios</div>
-              </div>
-              <!-- Game Release -->
-              <div class="card-game-release">2 May 2023</div>
-            </div>
-          </li>
-          <!-- Zelda -->
-          <li class="card">
-            <!-- Game Img -->
-            <img
-              class="card-game-img"
-              src="../public/spring2023/game5.jpg"
-              alt="Game Picture"
-            />
-            <!-- Game Info -->
-            <div class="card-game-info">
-              <div class="card-game-combinedinfo">
-                <!-- Game Title -->
-                <div class="card-game-title">
-                  The Legend of Zelda: Tears of the Kingdom
-                </div>
-                <!-- Game Studio -->
-                <div class="card-game-studio">Nintendo</div>
-              </div>
-              <!-- Game Release -->
-              <div class="card-game-release">12 May 2023</div>
-            </div>
-          </li>
-          <!-- The Last of Us Part 1 -->
-          <li class="card">
-            <!-- Game Img -->
-            <img
-              class="card-game-img"
-              src="../public/spring2023/game6.jpg"
-              alt="Game Picture"
-            />
-            <!-- Game Info -->
-            <div class="card-game-info">
-              <div class="card-game-combinedinfo">
-                <!-- Game Title -->
-                <div class="card-game-title">The Last of Us Part 1</div>
-                <!-- Game Studio -->
-                <div class="card-game-studio">Naughty Dog</div>
-              </div>
-              <!-- Game Release -->
-              <div class="card-game-release">28 March 2023</div>
-            </div>
-          </li>
-          <!-- Minecraft Legends -->
-          <li class="card">
-            <!-- Game Img -->
-            <img
-              class="card-game-img"
-              src="../public/spring2023/game7.jpg"
-              alt="Game Picture"
-            />
-            <!-- Game Info -->
-            <div class="card-game-info">
-              <div class="card-game-combinedinfo">
-                <!-- Game Title -->
-                <div class="card-game-title">Minecraft Legends</div>
-                <!-- Game Studio -->
-                <div class="card-game-studio">Microsoft/Mojang</div>
-              </div>
-              <!-- Game Release -->
-              <div class="card-game-release">18 April 2023</div>
-            </div>
-          </li>
-          <!-- The Mageseeker -->
-          <li class="card">
-            <!-- Game Img -->
-            <img
-              class="card-game-img"
-              src="../public/spring2023/game8.jpg"
-              alt="Game Picture"
-            />
-            <!-- Game Info -->
-            <div class="card-game-info">
-              <div class="card-game-combinedinfo">
-                <!-- Game Title -->
-                <div class="card-game-title">The Mageseeker</div>
-                <!-- Game Studio -->
-                <div class="card-game-studio">Digital Sun</div>
-              </div>
-              <!-- Game Release -->
-              <div class="card-game-release">18 April 2023</div>
-            </div>
-          </li>
-        </ul>
+        <ul
+          id="spring-game-carousel"
+          class="spring-game-carousel page-padding--left--top--bot"
+        ></ul>
         <!-- Arrow Right -->
         <button class="arrow-button arrow-button--right">
           <div class="arrow-right"></div>
         </button>
       </section>
 
-      <!-- Player Reviews -->
+      <!-- Free Games -->
       <section id="section-reviews">
         <!-- Section Title -->
-        <div class="section-title page-padding--left">
-          Popular Player Reviews
-        </div>
+        <div class="section-title page-padding--left">Popular Free Games</div>
         <!-- Arrow Left -->
         <button class="arrow-button arrow-button--left">
           <div class="arrow-left"></div>
         </button>
         <!-- Media Carousel -->
-        <ul class="reviews-carousel page-padding--left--top--bot">
-          <!-- Fire Emblem -->
-          <li class="card">
-            <!-- Game Img -->
-            <img
-              class="card-game-img"
-              src="../public/reviews/game5.avif"
-              alt="Game Picture"
-            />
-            <!-- Game Info -->
-            <div class="card-game-info">
-              <!-- Game Title -->
-              <div class="card-game-title">Fire Emblem: Engage</div>
-              <!-- Game Review Info -->
-              <div class="card-game-combinedinfo">
-                <!-- Game Reviewer -->
-                <div class="card-game-reviewer">Stef</div>
-                <!-- Game Review -->
-                <div class="card-game-review">10/10</div>
-              </div>
-            </div>
-          </li>
-          <!-- Animal Crossing -->
-          <li class="card">
-            <!-- Game Img -->
-            <img
-              class="card-game-img"
-              src="../public/reviews/game6.avif"
-              alt="Game Picture"
-            />
-            <!-- Game Info -->
-            <div class="card-game-info">
-              <!-- Game Title -->
-              <div class="card-game-title">Animal Crossing: New Horizons</div>
-              <!-- Game Review Info -->
-              <div class="card-game-combinedinfo">
-                <!-- Game Reviewer -->
-                <div class="card-game-reviewer">Gali</div>
-                <!-- Game Review -->
-                <div class="card-game-review">9/10</div>
-              </div>
-            </div>
-          </li>
-          <!-- Super Smash -->
-          <li class="card">
-            <!-- Game Img -->
-            <img
-              class="card-game-img"
-              src="../public/reviews/game7.avif"
-              alt="Game Picture"
-            />
-            <!-- Game Info -->
-            <div class="card-game-info">
-              <!-- Game Title -->
-              <div class="card-game-title">Super Smash Bros. Ultimate</div>
-              <!-- Game Review Info -->
-              <div class="card-game-combinedinfo">
-                <!-- Game Reviewer -->
-                <div class="card-game-reviewer">Kokicha</div>
-                <!-- Game Review -->
-                <div class="card-game-review">9/10</div>
-              </div>
-            </div>
-          </li>
-          <!-- Pokemon -->
-          <li class="card">
-            <!-- Game Img -->
-            <img
-              class="card-game-img"
-              src="../public/reviews/game8.avif"
-              alt="Game Picture"
-            />
-            <!-- Game Info -->
-            <div class="card-game-info">
-              <!-- Game Title -->
-              <div class="card-game-title">Pokémon Legends: Arceus</div>
-              <!-- Game Review Info -->
-              <div class="card-game-combinedinfo">
-                <!-- Game Reviewer -->
-                <div class="card-game-reviewer">Denisox</div>
-                <!-- Game Review -->
-                <div class="card-game-review">9/10</div>
-              </div>
-            </div>
-          </li>
-          <!-- Suicide Squad -->
-          <li class="card">
-            <!-- Game Img -->
-            <img
-              class="card-game-img"
-              src="../public/reviews/game1.png"
-              alt="Game Picture"
-            />
-            <!-- Game Info -->
-            <div class="card-game-info">
-              <!-- Game Title -->
-              <div class="card-game-title">
-                Suicide Squad: Kill the Justice League
-              </div>
-              <!-- Game Review Info -->
-              <div class="card-game-combinedinfo">
-                <!-- Game Reviewer -->
-                <div class="card-game-reviewer">Dearu Koto</div>
-                <!-- Game Review -->
-                <div class="card-game-review">1/10</div>
-              </div>
-            </div>
-          </li>
-          <!-- Steet Fighter 6 -->
-          <li class="card">
-            <!-- Game Img -->
-            <img
-              class="card-game-img"
-              src="../public/reviews/game2.png"
-              alt="Game Picture"
-            />
-            <!-- Game Info -->
-            <div class="card-game-info">
-              <!-- Game Title -->
-              <div class="card-game-title">Street Fighter 6</div>
-              <!-- Game Review Info -->
-              <div class="card-game-combinedinfo">
-                <!-- Game Reviewer -->
-                <div class="card-game-reviewer">aivv.ping</div>
-                <!-- Game Review -->
-                <div class="card-game-review">6/10</div>
-              </div>
-            </div>
-          </li>
-          <!-- Cyberpunk 2077 -->
-          <li class="card">
-            <!-- Game Img -->
-            <img
-              class="card-game-img"
-              src="../public/reviews/game3.png"
-              alt="Game Picture"
-            />
-            <!-- Game Info -->
-            <div class="card-game-info">
-              <!-- Game Title -->
-              <div class="card-game-title">Cyberpunk 2077</div>
-              <!-- Game Review Info -->
-              <div class="card-game-combinedinfo">
-                <!-- Game Reviewer -->
-                <div class="card-game-reviewer">Lizka</div>
-                <!-- Game Review -->
-                <div class="card-game-review">8/10</div>
-              </div>
-            </div>
-          </li>
-          <!-- Citizen Sleeper -->
-          <li class="card">
-            <!-- Game Img -->
-            <img
-              class="card-game-img"
-              src="../public/reviews/game4.jpg"
-              alt="Game Picture"
-            />
-            <!-- Game Info -->
-            <div class="card-game-info">
-              <!-- Game Title -->
-              <div class="card-game-title">Citizen Sleeper</div>
-              <!-- Game Review Info -->
-              <div class="card-game-combinedinfo">
-                <!-- Game Reviewer -->
-                <div class="card-game-reviewer">GTFM99</div>
-                <!-- Game Review -->
-                <div class="card-game-review">4/10</div>
-              </div>
-            </div>
-          </li>
-        </ul>
+        <ul class="reviews-carousel page-padding--left--top--bot"></ul>
         <!-- Arrow Right -->
         <button class="arrow-button arrow-button--right">
           <div class="arrow-right"></div>
@@ -865,247 +241,17 @@
       <section id="section-top-recommendations">
         <!-- Section Title -->
         <div class="section-title page-padding--left">
-          Top 10 Player’s Recomendations
+          Top 10 Recomendations
         </div>
         <!-- Arrow Left -->
         <button class="arrow-button arrow-button--left">
           <div class="arrow-left"></div>
         </button>
         <!-- Media Carousel -->
-        <ul class="top-games-carousel page-padding--left--top--bot">
-          <!-- Zelda No.1 -->
-          <li class="card-info">
-            <div class="top-number number-one">1.</div>
-            <div class="card">
-              <!-- Game Img -->
-              <img
-                class="card-game-img"
-                src="../public/recommendations/game1.jpg"
-                alt="Game Picture"
-              />
-              <!-- Game Info -->
-              <div class="card-game-info">
-                <div class="card-game-combinedinfo">
-                  <!-- Game Title -->
-                  <div class="card-game-title">
-                    The Legend of Zelda: Tears of the Kingdom
-                  </div>
-                  <!-- Game Studio -->
-                  <div class="card-game-studio">Nintendo</div>
-                </div>
-                <!-- Game Release -->
-                <div class="card-game-release">12 May 2023</div>
-              </div>
-            </div>
-          </li>
-          <!-- Nier No.3 -->
-          <li class="card-info">
-            <div class="top-number">3.</div>
-            <div class="card">
-              <!-- Game Img -->
-              <img
-                class="card-game-img"
-                src="../public/recommendations/game3.jpg"
-                alt="Game Picture"
-              />
-              <!-- Game Info -->
-              <div class="card-game-info">
-                <div class="card-game-combinedinfo">
-                  <!-- Game Title -->
-                  <div class="card-game-title">NieR: Automata</div>
-                  <!-- Game Studio -->
-                  <div class="card-game-studio">Square Enix</div>
-                </div>
-                <!-- Game Release -->
-                <div class="card-game-release">23 Feb 2017</div>
-              </div>
-            </div>
-          </li>
-          <!-- Minecraft No.5 -->
-          <li class="card-info">
-            <div class="top-number">5.</div>
-            <div class="card">
-              <!-- Game Img -->
-              <img
-                class="card-game-img"
-                src="../public/recommendations/game5.webp"
-                alt="Game Picture"
-              />
-              <!-- Game Info -->
-              <div class="card-game-info">
-                <div class="card-game-combinedinfo">
-                  <!-- Game Title -->
-                  <div class="card-game-title">Minecraft</div>
-                  <!-- Game Studio -->
-                  <div class="card-game-studio">Mojang/Microsoft</div>
-                </div>
-                <!-- Game Release -->
-                <div class="card-game-release">18 Nov 2011</div>
-              </div>
-            </div>
-          </li>
-          <!-- Detroid No.7 -->
-          <li class="card-info">
-            <div class="top-number">7.</div>
-            <div class="card">
-              <!-- Game Img -->
-              <img
-                class="card-game-img"
-                src="../public/recommendations/game7.webp"
-                alt="Game Picture"
-              />
-              <!-- Game Info -->
-              <div class="card-game-info">
-                <div class="card-game-combinedinfo">
-                  <!-- Game Title -->
-                  <div class="card-game-title">Detroit: Become Human</div>
-                  <!-- Game Studio -->
-                  <div class="card-game-studio">Quantic Dream</div>
-                </div>
-                <!-- Game Release -->
-                <div class="card-game-release">25 May 2018</div>
-              </div>
-            </div>
-          </li>
-          <!-- Mario kart No.9 -->
-          <li class="card-info">
-            <div class="top-number">9.</div>
-            <div class="card">
-              <!-- Game Img -->
-              <img
-                class="card-game-img"
-                src="../public/recommendations/game9.jpg"
-                alt="Game Picture"
-              />
-              <!-- Game Info -->
-              <div class="card-game-info">
-                <div class="card-game-combinedinfo">
-                  <!-- Game Title -->
-                  <div class="card-game-title">Mario Kart 8 Deluxe</div>
-                  <!-- Game Studio -->
-                  <div class="card-game-studio">Nintendo</div>
-                </div>
-                <!-- Game Release -->
-                <div class="card-game-release">28 Apr 2017</div>
-              </div>
-            </div>
-          </li>
-          <!-- League of Legends No.2 -->
-          <li class="card-info">
-            <div class="top-number">2.</div>
-            <div class="card">
-              <!-- Game Img -->
-              <img
-                class="card-game-img"
-                src="../public/recommendations/game2.jpg"
-                alt="Game Picture"
-              />
-              <!-- Game Info -->
-              <div class="card-game-info">
-                <div class="card-game-combinedinfo">
-                  <!-- Game Title -->
-                  <div class="card-game-title">League of Legends</div>
-                  <!-- Game Studio -->
-                  <div class="card-game-studio">Riot Games</div>
-                </div>
-                <!-- Game Release -->
-                <div class="card-game-release">27 Oct 2009</div>
-              </div>
-            </div>
-          </li>
-          <!-- Stray No.4 -->
-          <li class="card-info">
-            <div class="top-number">4.</div>
-            <div class="card">
-              <!-- Game Img -->
-              <img
-                class="card-game-img"
-                src="../public/recommendations/game4.webp"
-                alt="Game Picture"
-              />
-              <!-- Game Info -->
-              <div class="card-game-info">
-                <div class="card-game-combinedinfo">
-                  <!-- Game Title -->
-                  <div class="card-game-title">Stray</div>
-                  <!-- Game Studio -->
-                  <div class="card-game-studio">BlueTwelve</div>
-                </div>
-                <!-- Game Release -->
-                <div class="card-game-release">19 July 2022</div>
-              </div>
-            </div>
-          </li>
-          <!-- Hogwarts Legacy No.6 -->
-          <li class="card-info">
-            <div class="top-number">6.</div>
-            <div class="card">
-              <!-- Game Img -->
-              <img
-                class="card-game-img"
-                src="../public/recommendations/game6.jpg"
-                alt="Game Picture"
-              />
-              <!-- Game Info -->
-              <div class="card-game-info">
-                <div class="card-game-combinedinfo">
-                  <!-- Game Title -->
-                  <div class="card-game-title">Hogwarts Legacy</div>
-                  <!-- Game Studio -->
-                  <div class="card-game-studio">Avalanche Software</div>
-                </div>
-                <!-- Game Release -->
-                <div class="card-game-release">07 Feb 2023</div>
-              </div>
-            </div>
-          </li>
-          <!-- GTA 5 No.8 -->
-          <li class="card-info">
-            <div class="top-number">8.</div>
-            <div class="card">
-              <!-- Game Img -->
-              <img
-                class="card-game-img"
-                src="../public/recommendations/game8.jpg"
-                alt="Game Picture"
-              />
-              <!-- Game Info -->
-              <div class="card-game-info">
-                <div class="card-game-combinedinfo">
-                  <!-- Game Title -->
-                  <div class="card-game-title">Grand Theft Auto V</div>
-                  <!-- Game Studio -->
-                  <div class="card-game-studio">Rockstar Studios</div>
-                </div>
-                <!-- Game Release -->
-                <div class="card-game-release">17 Sep 2013</div>
-              </div>
-            </div>
-          </li>
-          <!-- Stardew Valley No.10 -->
-          <li class="card-info">
-            <div class="top-number">10.</div>
-            <div class="card">
-              <!-- Game Img -->
-              <img
-                class="card-game-img"
-                src="public/recommendations/game10.jpg"
-                alt="Game Picture"
-              />
-              <!-- Game Info -->
-              <div class="card-game-info">
-                <div class="card-game-combinedinfo">
-                  <!-- Game Title -->
-                  <div class="card-game-title">Stardew Valley</div>
-                  <!-- Game Studio -->
-                  <div class="card-game-studio">Concerned Ape/ChuckleFish</div>
-                </div>
-                <!-- Game Release -->
-                <div class="card-game-release">26 Feb 2016</div>
-              </div>
-            </div>
-          </li>
-        </ul>
+        <ul
+          id="top-games-carousel"
+          class="top-games-carousel page-padding--left--top--bot"
+        ></ul>
         <!-- Arrow Right -->
         <button class="arrow-button arrow-button--right">
           <div class="arrow-right"></div>

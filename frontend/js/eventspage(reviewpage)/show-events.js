@@ -3,9 +3,10 @@
 });
 
 function getAllEvents() {
-    $.get("https://localhost:7262/api/Events/get-all-events")
+    // Could be possible that the localhost port needs to match the cors
+    $.get("http://localhost:5077/api/Events/get-all-events")
         .done(function (data) {
-            var eventsContainer = $("#eventsContainer");
+            var eventsContainer = $("#section-latest");
             eventsContainer.empty();
 
             $.each(data, function (index, event) {

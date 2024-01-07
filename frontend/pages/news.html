@@ -7,13 +7,14 @@
 
     <title>The Game List</title>
 
-    <link rel="stylesheet" href="styles/profile-header.css" />
-    <link rel="stylesheet" href="styles/sidenav.css" />
-    <link rel="stylesheet" href="styles/news.css" />
+    <link rel="stylesheet" href="../styles/profile-header.css" />
+    <link rel="stylesheet" href="../styles/sidenav.css" />
+    <link rel="stylesheet" href="../styles/news.css" />
 
-    <link sizes="32x32" rel="icon" href="imgs/misc/web-logo.png" />
+    <link sizes="32x32" rel="icon" href="../misc/web-logo.png" />
 
-    <script defer src="js/sidenav.js"></script>
+    <script type="module" defer src="../js/newspage/articles.js"></script>
+    <script defer src="../js/sidenav.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,35 +26,21 @@
   <body>
     <!-- Profile Header -->
     <header class="profile-header">
-      <!-- Search -->
-      <input
-        class="search-field"
-        type="search"
-        required
-        placeholder="&#x1F50E;&#xFE0E; Search"
-      />
+      <div></div>
       <div class="right-section">
         <!-- Games List -->
         <div class="profile-header-icon-container game-list">
           <a href="gamelist.html">
             <img
               class="profile-header-icon"
-              src="imgs/misc/list-icon.png"
+              src="../misc/list-icon.png"
               alt=""
             />
           </a>
         </div>
-        <!-- Notifications -->
-        <div class="profile-header-icon-container">
-          <img
-            class="profile-header-icon"
-            src="imgs/misc/notif-icon.png"
-            alt=""
-          />
-        </div>
         <!-- Pfp -->
         <div class="profile-header-icon-container">
-          <img class="profile-header-icon" src="imgs/misc/pfp.png" alt="" />
+          <img class="profile-header-icon" src="../misc/pfp.png" alt="" />
         </div>
       </div>
     </header>
@@ -63,29 +50,25 @@
         <!-- Logo -->
         <li class="nav-item logo">
           <a href="heropage.html">
-            <img class="navbar-icon" src="imgs/misc/logo.png" alt="" />
+            <img class="navbar-icon" src="../misc/logo.png" alt="" />
           </a>
         </li>
         <!-- Games -->
         <li class="nav-item">
           <a href="profile.html">
-            <img class="navbar-icon" src="imgs/misc/navbar-games.png" alt="" />
+            <img class="navbar-icon" src="../misc/navbar-games.png" alt="" />
           </a>
         </li>
         <!-- Reviews -->
         <li class="nav-item">
           <a href="reviews.html">
-            <img
-              class="navbar-icon"
-              src="imgs/misc/navbar-reviews.png"
-              alt=""
-            />
+            <img class="navbar-icon" src="../misc/navbar-reviews.png" alt="" />
           </a>
         </li>
         <!-- News -->
         <li class="nav-item">
           <a href="news.html">
-            <img class="navbar-icon" src="imgs/misc/navbar-news.png" alt="" />
+            <img class="navbar-icon" src="../misc/navbar-news.png" alt="" />
           </a>
         </li>
         <!-- Navbar color -->
@@ -93,193 +76,8 @@
       </ul>
     </nav>
     <main id="main-content">
-      <section id="trending-section">
-        <div class="section-title">Trending Articles</div>
-        <!-- Articles -->
-        <div class="article-container">
-          <!-- Main Article -->
-          <div class="focus-article">
-            <!-- Article Image -->
-            <div class="focus-article-img-container">
-              <img
-                class="focus-article-img"
-                src="imgs/articles/article1.jpg"
-                alt="Article Image"
-              />
-              <div class="img-overlay"></div>
-            </div>
-            <!-- Article Title -->
-            <div class="focus-article-title">
-              Skyrim Mod Makes NPCs React to Invisibility
-            </div>
-          </div>
-          <!-- Other Articles -->
-          <div class="other-articles">
-            <!-- First Row -->
-            <div class="article-row">
-              <!-- Article -->
-              <div class="non-focus-article">
-                <!-- Article Image -->
-                <div class="non-focus-article-img-container">
-                  <img
-                    class="non-focus-article-img"
-                    src="imgs/articles/article2.jpg"
-                    alt="Article Image"
-                  />
-                  <div class="img-overlay"></div>
-                </div>
-                <!-- Article Title -->
-                <div class="non-focus-article-title">
-                  Sons of the Forest Patch 06 Adds New Difficulty Mode
-                </div>
-              </div>
-              <!-- Article -->
-              <div class="non-focus-article">
-                <!-- Article Image -->
-                <div class="non-focus-article-img-container">
-                  <img
-                    class="non-focus-article-img"
-                    src="imgs/articles/article3.webp"
-                    alt="Article Image"
-                  />
-                  <div class="img-overlay"></div>
-                </div>
-                <!-- Article Title -->
-                <div class="non-focus-article-title">
-                  God of War Ragnarok Glitch Turns Atreus Into Hermes
-                </div>
-              </div>
-            </div>
-            <!-- Second Row -->
-            <div class="article-row">
-              <!-- Article -->
-              <div class="non-focus-article">
-                <!-- Article Image -->
-                <div class="non-focus-article-img-container">
-                  <img
-                    class="non-focus-article-img"
-                    src="imgs/articles/article4.webp"
-                    alt="Article Image"
-                  />
-                  <div class="img-overlay"></div>
-                </div>
-                <!-- Article Title -->
-                <div class="non-focus-article-title">
-                  Stardew Valley Player's Lucky Find Ends in Disaster
-                </div>
-              </div>
-              <!-- Article -->
-              <div class="non-focus-article">
-                <!-- Article Image -->
-                <div class="non-focus-article-img-container">
-                  <img
-                    class="non-focus-article-img"
-                    src="imgs/articles/1.jpg"
-                    alt="Article Image"
-                  />
-                  <div class="img-overlay"></div>
-                </div>
-                <!-- Article Title -->
-                <div class="non-focus-article-title">
-                  God of War Ragnarok Glitch Turns Atreus Into Hermes
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       <section id="latest-section">
-        <div class="section-title">Latest</div>
-        <div class="article-card">
-          <!-- Article Image -->
-          <img
-            class="article-card-img"
-            src="imgs/articles/cover1.webp"
-            alt="Article Image"
-          />
-          <!-- Article Info -->
-          <div class="article-info">
-            <div class="article-row1">
-              <div class="article-title">
-                Elden Ring Bug Gives Astel a New Move That Breaks the Game
-              </div>
-              <img
-                class="article-settings"
-                src="imgs/misc/icon-settings.png"
-                alt="Settings"
-              />
-            </div>
-            <div class="article-desc">
-              During the mini-boss battle against Astel, Stars of Darkness, an
-              Elden Ring player discovers a bug that gives the mini-boss a
-              game-breaking move.
-            </div>
-            <div class="article-details">
-              <div class="article-author">Ominus543</div>
-              <div class="article-time">4 Hours Ago</div>
-            </div>
-          </div>
-        </div>
-        <div class="article-card">
-          <!-- Article Image -->
-          <img
-            class="article-card-img"
-            src="imgs/articles/cover2.webp"
-            alt="Article Image"
-          />
-          <!-- Article Info -->
-          <div class="article-info">
-            <div class="article-row1">
-              <div class="article-title">
-                Strange Red Dead Online Glitch Gives Player Bounty for Dancing
-              </div>
-              <img
-                class="article-settings"
-                src="imgs/misc/icon-settings.png"
-                alt="Settings"
-              />
-            </div>
-            <div class="article-desc">
-              A bizarre glitch found in Red Dead Online appears to be giving
-              players bounties just for daring to dance in front of other
-              gamers.
-            </div>
-            <div class="article-details">
-              <div class="article-author">DaniellM</div>
-              <div class="article-time">6 Hours Ago</div>
-            </div>
-          </div>
-        </div>
-        <div class="article-card">
-          <!-- Article Image -->
-          <img
-            class="article-card-img"
-            src="imgs/articles/cover3.jpg"
-            alt="Article Image"
-          />
-          <!-- Article Info -->
-          <div class="article-info">
-            <div class="article-row1">
-              <div class="article-title">
-                Nintendo Fan Makes Possibly the World's Biggest Fully Functional
-                Wii
-              </div>
-              <img
-                class="article-settings"
-                src="imgs/misc/icon-settings.png"
-                alt="Settings"
-              />
-            </div>
-            <div class="article-desc">
-              A gamer mods one of Nintendo's most revolutionary consoles to make
-              what could be the biggest fully functional Wii in the world.
-            </div>
-            <div class="article-details">
-              <div class="article-author">Keyattas</div>
-              <div class="article-time">7 Hours Ago</div>
-            </div>
-          </div>
-        </div>
+        <div class="section-title">Interesting Articles</div>
       </section>
     </main>
   </body>
