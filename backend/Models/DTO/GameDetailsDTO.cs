@@ -26,11 +26,17 @@ namespace VGL_Project.Models.DTO
         [JsonProperty("steam_appid")]
         public string AppId { get; set; }
 
+        [JsonProperty("is_free")]
+        public bool IsFree { get; set; }
+
         [JsonProperty("release_date")]
         public ReleaseDate ReleaseDate { get; set; }
 
         [JsonProperty("genres")]
-        public Genre[] Genres { get; set; } 
+        public Genre[] Genres { get; set; }
+
+        [JsonProperty("recommendations")]
+        public Recommendations Recommendations { get; set; }
 
         public string SanitizedDetailedDescription => RemoveHtmlTags(DetailedDescription);
 
@@ -49,6 +55,12 @@ namespace VGL_Project.Models.DTO
         public DateTime Date { get; set; }
     }
 
+    public class Recommendations
+    {
+        [JsonProperty("total")]
+        public int TotalRecommendations { get; set; }
+    }
+
     public class Genre
     {
         [JsonProperty("id")]
@@ -56,5 +68,17 @@ namespace VGL_Project.Models.DTO
 
         [JsonProperty("description")]
         public string Description { get; set; }
+    }
+
+    public class GameDetailsResponseDTO
+    {
+        public string AppId { get; set; } = "";
+        public string Name { get; set; } = "";
+        public string Developer { get; set; } = "";
+        public string Genre { get; set; } = "";
+        public string ReleaseDate { get; set; } = "";
+        public int? Recommendations { get; set; }
+        public bool IsFree { get; set; } = false;
+        public string Description { get; set; } = "";
     }
 }
