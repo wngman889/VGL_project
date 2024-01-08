@@ -60,19 +60,21 @@ namespace VGL_Project.Tests.Controller
         }
 
         [Fact]
-        public async Task GetReviews_ReturnsInternalServerErrorResultOnException()
+        public async Task ReviewsController_ReturnCorrectNumbers()
         {
             // Arrange
-            var dbContext = A.Fake<VGLDbContext>();
-            A.CallTo(() => dbContext.ReviewRecommendations).Throws<Exception>();
+            var reviews = A.CollectionOfFake<ReviewRecommendation>(6);
+            A.CallTo(() => _reviewService.GetReviews()).Returns(reviews);
             var controller = new ReviewsController(_reviewService);
 
             // Act
             var result = await controller.GetReviews();
 
             // Assert
-            result.Should().BeOfType<StatusCodeResult>().Which.StatusCode.Should().Be(500);
+            result.Should().NotBeNull().And.BeOfType<OkObjectResult>();
+            var okResult = result as OkObjectResult;
+            var reviewList = okResult.Value as IEnumerable<ReviewRecommendation>;
+            reviewList.Should().NotBeNull().And.HaveCount(6);
         }
-
     }
 }
