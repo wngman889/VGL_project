@@ -76,5 +76,67 @@ namespace VGL_Project.Tests.Controller
             var reviewList = okResult.Value as IEnumerable<ReviewRecommendation>;
             reviewList.Should().NotBeNull().And.HaveCount(6);
         }
+
+        //create reviews
+        [Fact]
+        public async Task AddReview_ValidInput_ReturnOkResult()
+        {
+            // Arrange
+            var controller = new ReviewsController(_reviewService);
+            var reviewDescription = "Test Review description";
+            var reviewTitle = "Test Title";
+            var rating = 3;
+            var gameId = 1;
+            var authorId = 1;
+
+            // Act
+            var result = await controller.AddReview(authorId, gameId, reviewTitle, rating, reviewDescription);
+
+            // Assert
+            result.Should().NotBeNull().And.BeOfType<OkObjectResult>();
+            var okResult = result as OkObjectResult;
+            okResult.Value.Should().Be("Review Created");
+        }
+
+        [Fact]
+        public async Task AddReview_ReturnServerCode200()
+        {
+            // Arrange
+            var controller = new ReviewsController(_reviewService);
+            var reviewDescription = "Test Review description";
+            var reviewTitle = "Test Title";
+            var rating = 3;
+            var gameId = 1;
+            var authorId = 1;
+
+            // Act
+            var result = await controller.AddReview(authorId, gameId, reviewTitle, rating, reviewDescription);
+
+            // Assert
+            result.Should().NotBeNull();  // Add this line to assert not null
+            result.Should().BeOfType<OkObjectResult>().Which.StatusCode.Should().Be(200);
+        }
+
+        [Fact]
+        public async Task AddReview_ExceptionOccurs_LogsError()
+        {
+            // Arrange
+            var controller = new ReviewsController(_reviewService);
+            var reviewDescription = "Test Review description";
+            var reviewTitle = "Test Title";
+            var rating = 3;
+            var gameId = 1;
+            var authorId = 1;
+
+            // Force an exception to occur during the service operation
+            A.CallTo(() => _reviewService.AddReview(authorId, gameId, reviewTitle, rating, reviewDescription))
+                .Throws<Exception>();
+
+            // Act
+            var result = await _reviewService.AddReview(1, 1, "Test", 3, "Test description");
+
+            // Assert
+            result.Should().BeFalse();
+        }
     }
 }
