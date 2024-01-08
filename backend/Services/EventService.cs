@@ -22,7 +22,7 @@ namespace VGL_Project.Services
 
         public async Task<bool> AddEvent(string description, DateTime date, int gameId, int authorId, byte[] eventImage)
         {
-            if (string.IsNullOrEmpty(description) || date < default(DateTime))
+            if (string.IsNullOrEmpty(description) || date <= default(DateTime))
             {
                 _logger.LogError("Invalid input parameters for adding an event");
                 return false;
