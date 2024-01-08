@@ -8,11 +8,11 @@ namespace VGL_Project.Models
         [Key]
         public int Id { get; set; }
 
-        [Column("author_id")]
+        [Column("AuthorId")]
         public int AuthorId { get; set; }
         public required User Author { get; set; }
 
-        [Column("game_id")]
+        [Column("GameId")]
         public int GameId { get; set; }
         public required Game Game { get; set; }
 
@@ -20,6 +20,12 @@ namespace VGL_Project.Models
 
         [MaxLength(255)]
         public required string Description { get; set; }
+
+        [Column("ImageEvent")]
+        public byte[] EventImage { get; set; }
+
+        [NotMapped] // This property is not stored in the database
+        public string EventImageBase64 => EventImage != null ? Convert.ToBase64String(EventImage) : null;
 
         public List<EventParticipant>? Participants { get; set; }
     }

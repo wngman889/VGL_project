@@ -13,31 +13,36 @@ namespace VGL_Project
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-
+            // Add services to the container.
             builder.Services.AddControllers();
+            builder.Services.AddRazorPages(); // If you don't have this line, you can add it.
 
-            builder.Services.AddCors(options =>
-            {
-                options.AddPolicy("AllowOrigin",
-                    builder => builder
-                        .WithOrigins("http://localhost:5173")
-                        .AllowCredentials()
-                        .AllowAnyMethod()
-                        .AllowAnyHeader()
-                );
-            });
+            // Add support for static files
+            builder.Services.AddDirectoryBrowser();
 
             builder.Services.AddDbContext<VGLDbContext>(options =>
-            options.UseMySql(ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("VGLDb"))));
+                options.UseMySql(ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("VGLDb"))));
 
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-            builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
+            // Add CORS services
+            builder.Services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(builder =>
+                {
+                    builder.AllowAnyOrigin()
+                           .AllowAnyHeader()
+                           .AllowAnyMethod();
+                });
+            });
 
             builder.Services.AddScoped<IGameService, GameService>();
             builder.Services.AddScoped<IUserService, UserService>();
             builder.Services.AddScoped<IReviewService, ReviewService>();
             builder.Services.AddScoped<IEventService, EventService>();
+
+            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+            builder.Services.AddEndpointsApiExplorer();
+            builder.Services.AddSwaggerGen();
+
 
             var app = builder.Build();
 
@@ -48,14 +53,18 @@ namespace VGL_Project
                 app.UseSwaggerUI();
             }
 
-            // Configure method
-            app.UseCors("AllowOrigin");
+            // Enable CORS
+            app.UseCors();
+
+            app.UseHttpsRedirection();
+            app.UseStaticFiles();
 
             app.UseAuthorization();
 
             app.MapControllers();
 
             app.Run();
+
         }
     }
 }

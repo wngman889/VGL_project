@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using VGL_Project.Data;
 
@@ -10,9 +11,11 @@ using VGL_Project.Data;
 namespace VGL_Project.Migrations
 {
     [DbContext(typeof(VGLDbContext))]
-    partial class VGLDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240108191215_Images")]
+    partial class Images
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

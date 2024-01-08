@@ -23,9 +23,19 @@ namespace VGL_Project.Controllers
         }
 
         [HttpPost("add-event")]
-        public async Task<IActionResult> AddEvent(string description, DateTime date, int gameId, int authorId)
+        public async Task<IActionResult> AddEvent(string description, DateTime date, int gameId, int authorId, IFormFile eventImage)
         {
-            await _eventService.AddEvent(description, date, gameId, authorId);
+            byte[] imageBytes = null;
+            if (eventImage != null)
+            {
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    await eventImage.CopyToAsync(ms);
+                    imageBytes = ms.ToArray();
+                }
+            }
+
+            await _eventService.AddEvent(description, date, gameId, authorId, imageBytes);
 
             return Ok("Event Created");
         }
@@ -55,8 +65,36 @@ namespace VGL_Project.Controllers
         [HttpGet("get-all-events")]
         public async Task<IActionResult> GetEvents()
         {
-            return Ok(await _eventService.GetEvents());
+            try
+            {
+                var events = await _eventService.GetEvents();
+
+                if (events == null)
+                {
+                    return NotFound();
+                }
+
+                // Convert image bytes to Base64 strings
+                var eventsWithBase64 = events.Select(e => new
+                {
+                    e.Id,
+                    e.AuthorId,
+                    e.GameId,
+                    e.Date,
+                    e.Description,
+                    EventImageBase64 = e.EventImage != null ? Convert.ToBase64String(e.EventImage) : null,
+                    Participants = e.Participants
+                });
+
+                return Ok(eventsWithBase64);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"An error occurred while getting events: {ex.Message}");
+                return StatusCode(500, "Internal Server Error");
+            }
         }
+
 
         [HttpPut("update-event-description/{id}")]
         public async Task<IActionResult> UpdateEvent(int id, string description)

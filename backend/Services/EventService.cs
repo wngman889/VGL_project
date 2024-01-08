@@ -20,7 +20,7 @@ namespace VGL_Project.Services
             _logger = logger;
         }
 
-        public async Task<bool> AddEvent(string description, DateTime date, int gameId, int authorId)
+        public async Task<bool> AddEvent(string description, DateTime date, int gameId, int authorId, byte[] eventImage)
         {
             if (string.IsNullOrEmpty(description) || date < default(DateTime))
             {
@@ -36,19 +36,18 @@ namespace VGL_Project.Services
                 if (game == null || user == null)
                     return false;
 
-                // Create a new Event instance
                 var newEvent = new Event
                 {
                     Description = description,
                     Date = date,
-                    Game = game,// required relationships
-                    Author = user
+                    Game = game,
+                    Author = user,
+                    EventImage = eventImage
                 };
 
-                // Add the new event to the DbContext
+
                 _dbContext.Events.Add(newEvent);
 
-                // Save changes to the database
                 await _dbContext.SaveChangesAsync();
 
                 return true;
