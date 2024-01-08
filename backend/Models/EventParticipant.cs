@@ -8,11 +8,11 @@ namespace VGL_Project.Models
         [Key]
         public int Id { get; set; }
 
-        [Column("ParticipantId")]
+        [Column("participant_id")]
         public int ParticipantId { get; set; }
         public required User Participant { get; set; }
 
-        [Column("EventId")]
+        [Column("event_id")]
         public int EventId { get; set; }
         public required Event Event { get; set; }
     }

@@ -21,10 +21,10 @@ namespace VGL_Project.Models
         [MaxLength(255)]
         public required string Email { get; set; }
 
-        [Column("CreatedAt")]
+        [Column("created_at")]
         public DateTime CreatedAt { get; set; } = DateTime.Now;
 
-        [Column("SteamId")]
+        [Column("steam_id")]
         [MaxLength(255)]
         public required string? SteamId { get; set; }
 
