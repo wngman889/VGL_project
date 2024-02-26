@@ -1,2 +1,2 @@
 # VGL_project
-Website project for university assignment
+Website project for university assignment. VGL_Project is a website tailored for gamers who seek to track and analyze their scores across various games. The platform offers seamless integration with the Steam API, allowing users to effortlessly sync their gaming data and achievements. With a robust connection to a MySQL server, our website ensures secure storage and efficient retrieval of user information. Users can sign up and log in, ensuring smooth communication between the frontend and backend components.
